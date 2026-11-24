@@ -1,0 +1,66 @@
+name: EC4206 CI
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      MONGO_URI: mongodb://127.0.0.1:27017/campus_ci
+      SELENIUM_EVIDENCE_DIR: ${{ github.workspace }}/ci-evidence/selenium
+    services:
+      mongodb:
+        image: mongo:8.0
+        ports:
+          - 27017:27017
+        options: >-
+          --health-cmd "mongosh --quiet --eval 'db.adminCommand({ping:1})'"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            backend/package-lock.json
+      - name: Install locked dependencies
+        run: |
+          mkdir -p ci-evidence
+          npm ci 2>&1 | tee ci-evidence/frontend-install.txt
+          npm ci --prefix backend 2>&1 | tee ci-evidence/backend-install.txt
+      - name: Lint frontend
+        run: npm run lint 2>&1 | tee ci-evidence/lint.txt
+      - name: Build frontend
+        run: npm run build 2>&1 | tee ci-evidence/build.txt
+      - name: Run backend regression
+        run: npm --prefix backend test 2>&1 | tee ci-evidence/backend.txt
+      - name: Run Cucumber
+        run: npm --prefix backend run test:bdd 2>&1 | tee ci-evidence/cucumber.txt
+      - name: Run headless Chrome Selenium tests
+        run: |
+          google-chrome --version 2>&1 | tee ci-evidence/chrome.txt
+          npm --prefix backend run test:ui 2>&1 | tee ci-evidence/selenium.tap
+      - name: Upload verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ec4206-ci-evidence
+          path: ci-evidence/
+      - name: Package verified frontend build
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smart-campus-frontend
+          path: dist/
+          if-no-files-found: error

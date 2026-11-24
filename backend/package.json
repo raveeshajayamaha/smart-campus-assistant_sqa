@@ -8,7 +8,9 @@
     "dev": "node --watch server.js",
     "seed": "node seed.js",
     "make-admin": "node make-admin.js",
-    "test": "node --test tests/*.test.js"
+    "test": "node --test tests/*.test.js",
+    "test:bdd": "cucumber-js features/campus-information.feature --require features/step-definitions/campus-information.steps.js --format summary",
+    "test:ui": "node --test --test-reporter=tap tests/ui/selenium.test.cjs"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +22,9 @@
     "dotenv": "^18.0.5",
     "express": "^5.2.1",
     "mongoose": "^9.11.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "12.9.0",
+    "selenium-webdriver": "4.41.0"
   }
 }

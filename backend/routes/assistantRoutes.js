@@ -5,6 +5,7 @@ const Announcement = require("../models/Announcement");
 const Schedule = require("../models/Schedule");
 const Library = require("../models/LibraryResource");
 const Location = require("../models/CampusLocation");
+const { upcomingEventFallback } = require("../lib/upcomingEventFallback");
 const router = express.Router();
 const date = value => new Date(value).toLocaleDateString("en-GB", { timeZone: "Asia/Colombo" });
 function relevant(records, message) {
@@ -51,15 +52,7 @@ router.post("/chat", authenticate, async (req, res) => {
         }))
       );
 
-      sections.push(
-        "Events:\nThere are no upcoming events at the moment, but here are the latest campus events available:\n" +
-          records
-            .map(
-              r =>
-                `${r.title} - ${date(r.date)}, ${r.time}, ${r.location}. ${r.description}`
-            )
-            .join("\n")
-      );
+      sections.push(upcomingEventFallback(records));
     } else {
       add(
         "Events",
