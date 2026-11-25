@@ -1,0 +1,57 @@
+
+> backend@1.0.0 test:ui
+> node --test --test-reporter=tap tests/ui/selenium.test.cjs
+
+TAP version 13
+# MongoDB connected successfully
+# Screenshot: AUTO-01-pass.png
+# Subtest: EC4206 Selenium Chrome workflows
+    # Subtest: AUTO-01 signed-out visitor is redirected from the student dashboard
+    ok 1 - AUTO-01 signed-out visitor is redirected from the student dashboard
+      ---
+      duration_ms: 5617.3035
+      type: 'test'
+      ...
+# Screenshot: AUTO-02-pass.png
+    # Subtest: AUTO-02 incorrect password is rejected by the login form
+    ok 2 - AUTO-02 incorrect password is rejected by the login form
+      ---
+      duration_ms: 3320.4658
+      type: 'test'
+      ...
+# Screenshot: AUTO-03-pass.png
+    # Subtest: AUTO-03 student signs in and navigates from the dashboard to campus locations
+    ok 3 - AUTO-03 student signs in and navigates from the dashboard to campus locations
+      ---
+      duration_ms: 4270.0324
+      type: 'test'
+      ...
+# Screenshot: AUTO-04-pass.png
+    # Subtest: AUTO-04 student cannot enter the administrator dashboard
+    ok 4 - AUTO-04 student cannot enter the administrator dashboard
+      ---
+      duration_ms: 4073.3956
+      type: 'test'
+      ...
+# Screenshot: AUTO-05-pass.png
+    # Subtest: AUTO-05 assistant displays MongoDB-backed library hours
+    ok 5 - AUTO-05 assistant displays MongoDB-backed library hours
+      ---
+      duration_ms: 5491.5152
+      type: 'test'
+      ...
+    1..5
+ok 1 - EC4206 Selenium Chrome workflows
+  ---
+  duration_ms: 23245.484
+  type: 'test'
+  ...
+1..1
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 24499.5557

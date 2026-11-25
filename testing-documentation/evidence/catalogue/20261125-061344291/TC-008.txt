@@ -1,0 +1,3 @@
+2026-11-25T06:13:51.344Z GET auth/me HTTP 401 {"success":false,"message":"Please log in"}
+2026-11-25T06:13:51.346Z GET auth/me HTTP 401 {"success":false,"message":"Please log in"}
+2026-11-25T06:13:51.346Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

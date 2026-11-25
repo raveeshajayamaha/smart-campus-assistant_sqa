@@ -1,0 +1,88 @@
+
+> backend@1.0.0 test
+> node --test tests/*.test.js
+
+MongoDB connected successfully
+▶ campus API: registration, sessions, roles, CRUD, validation, assistant and logout
+  ✔ registration validation and privilege escalation prevention (570.6888ms)
+  ✔ login, authenticated identity and access restrictions (190.9524ms)
+  ✔ events: create/read/update validation and missing IDs (136.9843ms)
+  ✔ announcements: create/read/update validation and missing IDs (109.7042ms)
+  ✔ schedules: create/read/update validation and missing IDs (103.9793ms)
+  ✔ library: create/read/update validation and missing IDs (73.8526ms)
+  ✔ locations: create/read/update validation and missing IDs (85.7509ms)
+  ✔ date, schedule time, priority, link and malformed JSON validation (52.6709ms)
+  ✔ assistant uses each collection and handles missing data (108.4359ms)
+  ✔ admin deletes records and receives 404 when absent (96.8165ms)
+  ✔ logout revokes session; expired sessions are rejected (30.6807ms)
+✔ campus API: registration, sessions, roles, CRUD, validation, assistant and logout (2201.0403ms)
+MongoDB connected successfully
+▶ EC4206 black-box HTTP tests
+  ✔ BB-EP-01 fresh valid email after trimming (104.6664ms)
+  ✔ BB-EP-02 existing email ignoring case (14.4299ms)
+  ✔ BB-EP-03 malformed email missing domain dot (5.2043ms)
+  ✔ BB-EP-04 email of wrong JSON type (2.8625ms)
+  ✔ BB-EP-05 blank email after trimming (2.9234ms)
+  ✔ BB-EP-06 nonblank recognised message (56.9705ms)
+  ✔ BB-EP-07 whitespace-only message (8.221ms)
+  ✔ BB-EP-08 message of wrong JSON type (9.0462ms)
+  ✔ BB-BV-01 registration password length 5 (2.5145ms)
+  ✔ BB-BV-02 registration password length 6 (96.7432ms)
+  ✔ BB-BV-03 registration password length 7 (97.9006ms)
+  ✔ BB-BV-04 registration password length 71 (91.5592ms)
+  ✔ BB-BV-05 registration password length 72 (77.1563ms)
+  ✔ BB-BV-06 registration password length 73 (3.3138ms)
+  ✔ BB-BV-07 assistant message length 0 (8.9831ms)
+  ✔ BB-BV-08 assistant message length 1 (8.9194ms)
+  ✔ BB-BV-09 assistant message length 2 (16.9329ms)
+  ✔ BB-BV-10 assistant message length 1999 (7.2992ms)
+  ✔ BB-BV-11 assistant message length 2000 (7.7601ms)
+  ✔ BB-BV-12 assistant message length 2001 (11.5736ms)
+  ✔ BB-DT-01 admin event creation with anonymous (7.0704ms)
+  ✔ BB-DT-02 admin event creation with malformed token (10.9498ms)
+  ✔ BB-DT-03 admin event creation with unknown token (10.8525ms)
+  ✔ BB-DT-04 admin event creation with expired admin session (11.4643ms)
+  ✔ BB-DT-05 admin event creation with revoked admin session (10.0165ms)
+  ✔ BB-DT-06 admin event creation with valid student session (7.2167ms)
+  ✔ BB-DT-07 admin event creation with valid admin session (15.6686ms)
+✔ EC4206 black-box HTTP tests (2203.5609ms)
+MongoDB connected successfully
+▶ password changes validate credentials, persist hashes and revoke sessions
+  ✔ requires auth and rejects targeting, role, email and unknown fields (72.2631ms)
+  ✔ rejects missing, invalid, mismatched, same and bcrypt-truncated passwords (321.3007ms)
+  ✔ incorrect current password fails without revoking valid sessions (95.1662ms)
+  ✔ database failure returns safe error and leaves the old password valid (211.1927ms)
+  ✔ saves a bcrypt hash only for the authenticated user and returns no secrets (419.7081ms)
+  ✔ revokes all own sessions, rejects old login, permits new login and preserves others (273.4083ms)
+✔ password changes validate credentials, persist hashes and revoke sessions (2265.5647ms)
+MongoDB connected successfully
+▶ own-profile updates preserve identity, sessions and authorization
+  ✔ requires authentication and rejects mass assignment and targeting another user (59.7451ms)
+  ✔ validates strings, lengths, required name and contact format without partial saves (72.2837ms)
+  ✔ trims and persists all fields, returns only safe data, and survives fresh identity requests (22.2611ms)
+  ✔ optional fields can be cleared and omitted fields remain unchanged (13.7283ms)
+  ✔ server errors return a safe message (5.3988ms)
+  ✔ logout revokes updates and login restores persisted profile without changing privileges (109.2157ms)
+✔ own-profile updates preserve identity, sessions and authorization (1092.4793ms)
+✔ TDD-01 empty event catalogue gives an honest upcoming-events reply (1.3666ms)
+✔ TDD-02 historical event details retain their order and format (28.5368ms)
+MongoDB connected successfully
+▶ EC4206 white-box authentication paths
+  ✔ WB-01 missing Authorization header (2.7052ms)
+  ✔ WB-02 malformed bearer token (1.9026ms)
+  ✔ WB-03 unknown well-formed token (3.2993ms)
+  ✔ WB-04 expired student session (2.8333ms)
+  ✔ WB-05 revoked admin session (5.5319ms)
+  ✔ WB-06 active session with no populated user (4.5567ms)
+  ✔ WB-07 active student session reaches identity handler (5.1982ms)
+  ✔ WB-08 active admin session reaches identity handler (7.1523ms)
+  ✔ WB-09 database rejection reaches Express error handler (2.2768ms)
+✔ EC4206 white-box authentication paths (887.6837ms)
+ℹ tests 66
+ℹ suites 0
+ℹ pass 66
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7867.3335

@@ -36,3 +36,7 @@ coverage/
 *.njsproj
 *.sln
 *.sw?
+
+
+# Ignore generated JMeter HTML dashboards
+testing-documentation/evidence/section-3.7/*/*-dashboard/

@@ -1,0 +1,8 @@
+
+> backend@1.0.0 test:bdd
+> cucumber-js features/campus-information.feature --require features/step-definitions/campus-information.steps.js --format summary
+
+MongoDB connected successfully
+2 scenarios (2 passed)
+9 steps (9 passed)
+0m00.760s (executing steps: 0m00.676s)

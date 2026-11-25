@@ -1,0 +1,14 @@
+2026-11-25T06:14:01.084Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067ca999b54093f603656c","name":"Test Student","email":"tc-026-e5a82e3b@example.test","role":"student","createdAt":"2026-11-25T06:14:01.082Z","updatedAt":"2026-11-25T06:14:01.082Z"}}
+2026-11-25T06:14:01.147Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067ca999b54093f603656c","name":"Test Student","email":"tc-026-e5a82e3b@example.test","role":"admin","createdAt":"2026-11-25T06:14:01.082Z","updatedAt":"2026-11-25T06:14:01.084Z"}}
+2026-11-25T06:14:01.151Z POST events HTTP 201 {"success":true,"event":{"title":"Robotics Fair","description":"","date":"2026-11-26T00:00:00.000Z","time":"10:00 AM","location":"Hall A","image":"","category":"General","_id":"6b067ca999b54093f603656e","createdAt":"2026-11-25T06:14:01.150Z","updatedAt":"2026-11-25T06:14:01.150Z","__v":0}}
+2026-11-25T06:14:01.156Z POST announcements HTTP 201 {"success":true,"announcement":{"title":"Registration Notice","description":"Registration opens soon","category":"General","date":"2026-11-26T00:00:00.000Z","priority":"high","_id":"6b067ca999b54093f603656f","createdAt":"2026-11-25T06:14:01.154Z","updatedAt":"2026-11-25T06:14:01.154Z","__v":0}}
+2026-11-25T06:14:01.163Z POST schedules HTTP 201 {"success":true,"schedule":{"subject":"Algorithms","date":"2026-11-26T00:00:00.000Z","startTime":"09:00","endTime":"10:00","location":"Room A","type":"Lecture","_id":"6b067ca999b54093f6036570","createdAt":"2026-11-25T06:14:01.161Z","updatedAt":"2026-11-25T06:14:01.161Z","__v":0}}
+2026-11-25T06:14:01.227Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067ca999b54093f6036571","name":"Test Student","email":"tc-026-ebd78e02@example.test","role":"student","createdAt":"2026-11-25T06:14:01.224Z","updatedAt":"2026-11-25T06:14:01.224Z"}}
+2026-11-25T06:14:01.289Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067ca999b54093f6036571","name":"Test Student","email":"tc-026-ebd78e02@example.test","role":"student","createdAt":"2026-11-25T06:14:01.224Z","updatedAt":"2026-11-25T06:14:01.224Z"}}
+2026-11-25T06:14:05.636Z body displayed Robotics Fair
+2026-11-25T06:14:06.247Z Screenshot event http://127.0.0.1:61941/student-dashboard
+2026-11-25T06:14:06.290Z body displayed Registration Notice (high) | Registration opens soon
+2026-11-25T06:14:06.477Z Screenshot announcement http://127.0.0.1:61941/student-dashboard
+2026-11-25T06:14:06.506Z body displayed Algorithms | 09:00 - 10:00 | Room A
+2026-11-25T06:14:06.711Z Screenshot schedule http://127.0.0.1:61941/student-dashboard
+2026-11-25T06:14:06.806Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

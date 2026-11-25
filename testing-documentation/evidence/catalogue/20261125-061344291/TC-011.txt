@@ -1,0 +1,4 @@
+2026-11-25T06:13:51.914Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067c9f99b54093f603652f","name":"Test Student","email":"tc-011-d1687d94@example.test","role":"student","createdAt":"2026-11-25T06:13:51.912Z","updatedAt":"2026-11-25T06:13:51.912Z"}}
+2026-11-25T06:13:51.977Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067c9f99b54093f603652f","name":"Test Student","email":"tc-011-d1687d94@example.test","role":"student","createdAt":"2026-11-25T06:13:51.912Z","updatedAt":"2026-11-25T06:13:51.912Z"}}
+2026-11-25T06:13:56.981Z Screenshot redirect http://127.0.0.1:61941/student-dashboard
+2026-11-25T06:13:57.027Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

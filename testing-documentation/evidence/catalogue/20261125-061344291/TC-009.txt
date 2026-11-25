@@ -1,0 +1,5 @@
+2026-11-25T06:13:51.431Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067c9f99b54093f6036527","name":"Test Student","email":"tc-009-0ff6b590@example.test","role":"student","createdAt":"2026-11-25T06:13:51.428Z","updatedAt":"2026-11-25T06:13:51.428Z"}}
+2026-11-25T06:13:51.499Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067c9f99b54093f6036527","name":"Test Student","email":"tc-009-0ff6b590@example.test","role":"student","createdAt":"2026-11-25T06:13:51.428Z","updatedAt":"2026-11-25T06:13:51.428Z"}}
+2026-11-25T06:13:51.502Z Verified expired synthetic fixture exists
+2026-11-25T06:13:51.503Z GET auth/me HTTP 401 {"success":false,"message":"Session expired. Please log in again"}
+2026-11-25T06:13:51.503Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

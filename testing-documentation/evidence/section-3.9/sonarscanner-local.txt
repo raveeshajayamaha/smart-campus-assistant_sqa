@@ -1,0 +1,25 @@
+Official Windows ZIP: https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-8.1.0.6389-windows-x64.zip
+Downloaded ZIP SHA-256 (recorded for provenance): 73F0E71928673D5B2F39BB86213342A30E51A14C8EEC345164016BB29C8DF8EE
+Download used verified HTTPS without certificate overrides.
+
+Bundled runtime java -version
+openjdk version "21.0.9" 2025-10-21 LTS
+OpenJDK Runtime Environment Temurin-21.0.9+10 (build 21.0.9+10-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.9+10 (build 21.0.9+10-LTS, mixed mode, sharing)
+
+sonar-scanner -v
+15:04:38.018 INFO  Scanner configuration file: <checkout>\coverage\sonarscanner-portable\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+15:04:38.020 INFO  Project root configuration file: <checkout>\sonar-project.properties
+15:04:38.033 INFO  SonarScanner CLI 8.1.0.6389
+15:04:38.041 INFO  Windows 11 10.0 amd64
+Version exit code: 0
+
+Unauthenticated loopback bootstrap check at http://127.0.0.1:9000
+15:04:38.436 INFO  Scanner configuration file: <checkout>\coverage\sonarscanner-portable\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+15:04:38.438 INFO  Project root configuration file: <checkout>\sonar-project.properties
+15:04:38.449 INFO  SonarScanner CLI 8.1.0.6389
+15:04:38.454 INFO  Windows 11 10.0 amd64
+15:04:40.898 ERROR Failed to query server version: Call to URL [http://127.0.0.1:9000/api/v2/analysis/version] failed: null
+15:04:40.898 INFO  EXECUTION FAILURE
+15:04:40.899 INFO  Total time: 2.472s
+Bootstrap exit code: 1

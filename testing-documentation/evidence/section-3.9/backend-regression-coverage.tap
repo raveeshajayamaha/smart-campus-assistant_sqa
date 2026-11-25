@@ -1,0 +1,448 @@
+Disposable MongoDB is ready on 127.0.0.1:27941
+TAP version 13
+# MongoDB connected successfully
+# Subtest: campus API: registration, sessions, roles, CRUD, validation, assistant and logout
+    # Subtest: registration validation and privilege escalation prevention
+    ok 1 - registration validation and privilege escalation prevention
+      ---
+      duration_ms: 922.2616
+      type: 'test'
+      ...
+    # Subtest: login, authenticated identity and access restrictions
+    ok 2 - login, authenticated identity and access restrictions
+      ---
+      duration_ms: 114.8148
+      type: 'test'
+      ...
+    # Subtest: events: create/read/update validation and missing IDs
+    ok 3 - events: create/read/update validation and missing IDs
+      ---
+      duration_ms: 68.5357
+      type: 'test'
+      ...
+    # Subtest: announcements: create/read/update validation and missing IDs
+    ok 4 - announcements: create/read/update validation and missing IDs
+      ---
+      duration_ms: 61.6583
+      type: 'test'
+      ...
+    # Subtest: schedules: create/read/update validation and missing IDs
+    ok 5 - schedules: create/read/update validation and missing IDs
+      ---
+      duration_ms: 70.3319
+      type: 'test'
+      ...
+    # Subtest: library: create/read/update validation and missing IDs
+    ok 6 - library: create/read/update validation and missing IDs
+      ---
+      duration_ms: 59.6375
+      type: 'test'
+      ...
+    # Subtest: locations: create/read/update validation and missing IDs
+    ok 7 - locations: create/read/update validation and missing IDs
+      ---
+      duration_ms: 60.1507
+      type: 'test'
+      ...
+    # Subtest: date, schedule time, priority, link and malformed JSON validation
+    ok 8 - date, schedule time, priority, link and malformed JSON validation
+      ---
+      duration_ms: 59.4876
+      type: 'test'
+      ...
+    # Subtest: assistant uses each collection and handles missing data
+    ok 9 - assistant uses each collection and handles missing data
+      ---
+      duration_ms: 134.0734
+      type: 'test'
+      ...
+    # Subtest: admin deletes records and receives 404 when absent
+    ok 10 - admin deletes records and receives 404 when absent
+      ---
+      duration_ms: 125.4441
+      type: 'test'
+      ...
+    # Subtest: logout revokes session; expired sessions are rejected
+    ok 11 - logout revokes session; expired sessions are rejected
+      ---
+      duration_ms: 26.571
+      type: 'test'
+      ...
+    1..11
+ok 1 - campus API: registration, sessions, roles, CRUD, validation, assistant and logout
+  ---
+  duration_ms: 2035.7407
+  type: 'test'
+  ...
+# MongoDB connected successfully
+# Subtest: EC4206 black-box HTTP tests
+    # Subtest: BB-EP-01 fresh valid email after trimming
+    ok 1 - BB-EP-01 fresh valid email after trimming
+      ---
+      duration_ms: 93.6485
+      type: 'test'
+      ...
+    # Subtest: BB-EP-02 existing email ignoring case
+    ok 2 - BB-EP-02 existing email ignoring case
+      ---
+      duration_ms: 7.9497
+      type: 'test'
+      ...
+    # Subtest: BB-EP-03 malformed email missing domain dot
+    ok 3 - BB-EP-03 malformed email missing domain dot
+      ---
+      duration_ms: 4.3959
+      type: 'test'
+      ...
+    # Subtest: BB-EP-04 email of wrong JSON type
+    ok 4 - BB-EP-04 email of wrong JSON type
+      ---
+      duration_ms: 3.4455
+      type: 'test'
+      ...
+    # Subtest: BB-EP-05 blank email after trimming
+    ok 5 - BB-EP-05 blank email after trimming
+      ---
+      duration_ms: 3.1197
+      type: 'test'
+      ...
+    # Subtest: BB-EP-06 nonblank recognised message
+    ok 6 - BB-EP-06 nonblank recognised message
+      ---
+      duration_ms: 204.2851
+      type: 'test'
+      ...
+    # Subtest: BB-EP-07 whitespace-only message
+    ok 7 - BB-EP-07 whitespace-only message
+      ---
+      duration_ms: 13.5889
+      type: 'test'
+      ...
+    # Subtest: BB-EP-08 message of wrong JSON type
+    ok 8 - BB-EP-08 message of wrong JSON type
+      ---
+      duration_ms: 11.2175
+      type: 'test'
+      ...
+    # Subtest: BB-BV-01 registration password length 5
+    ok 9 - BB-BV-01 registration password length 5
+      ---
+      duration_ms: 2.9479
+      type: 'test'
+      ...
+    # Subtest: BB-BV-02 registration password length 6
+    ok 10 - BB-BV-02 registration password length 6
+      ---
+      duration_ms: 116.3701
+      type: 'test'
+      ...
+    # Subtest: BB-BV-03 registration password length 7
+    ok 11 - BB-BV-03 registration password length 7
+      ---
+      duration_ms: 148.4581
+      type: 'test'
+      ...
+    # Subtest: BB-BV-04 registration password length 71
+    ok 12 - BB-BV-04 registration password length 71
+      ---
+      duration_ms: 94.1836
+      type: 'test'
+      ...
+    # Subtest: BB-BV-05 registration password length 72
+    ok 13 - BB-BV-05 registration password length 72
+      ---
+      duration_ms: 95.6262
+      type: 'test'
+      ...
+    # Subtest: BB-BV-06 registration password length 73
+    ok 14 - BB-BV-06 registration password length 73
+      ---
+      duration_ms: 2.0159
+      type: 'test'
+      ...
+    # Subtest: BB-BV-07 assistant message length 0
+    ok 15 - BB-BV-07 assistant message length 0
+      ---
+      duration_ms: 7.0564
+      type: 'test'
+      ...
+    # Subtest: BB-BV-08 assistant message length 1
+    ok 16 - BB-BV-08 assistant message length 1
+      ---
+      duration_ms: 16.8598
+      type: 'test'
+      ...
+    # Subtest: BB-BV-09 assistant message length 2
+    ok 17 - BB-BV-09 assistant message length 2
+      ---
+      duration_ms: 6.3748
+      type: 'test'
+      ...
+    # Subtest: BB-BV-10 assistant message length 1999
+    ok 18 - BB-BV-10 assistant message length 1999
+      ---
+      duration_ms: 14.3059
+      type: 'test'
+      ...
+    # Subtest: BB-BV-11 assistant message length 2000
+    ok 19 - BB-BV-11 assistant message length 2000
+      ---
+      duration_ms: 4.1183
+      type: 'test'
+      ...
+    # Subtest: BB-BV-12 assistant message length 2001
+    ok 20 - BB-BV-12 assistant message length 2001
+      ---
+      duration_ms: 4.9464
+      type: 'test'
+      ...
+    # Subtest: BB-DT-01 admin event creation with anonymous
+    ok 21 - BB-DT-01 admin event creation with anonymous
+      ---
+      duration_ms: 5.8021
+      type: 'test'
+      ...
+    # Subtest: BB-DT-02 admin event creation with malformed token
+    ok 22 - BB-DT-02 admin event creation with malformed token
+      ---
+      duration_ms: 3.3807
+      type: 'test'
+      ...
+    # Subtest: BB-DT-03 admin event creation with unknown token
+    ok 23 - BB-DT-03 admin event creation with unknown token
+      ---
+      duration_ms: 4.5049
+      type: 'test'
+      ...
+    # Subtest: BB-DT-04 admin event creation with expired admin session
+    ok 24 - BB-DT-04 admin event creation with expired admin session
+      ---
+      duration_ms: 5.4761
+      type: 'test'
+      ...
+    # Subtest: BB-DT-05 admin event creation with revoked admin session
+    ok 25 - BB-DT-05 admin event creation with revoked admin session
+      ---
+      duration_ms: 4.6284
+      type: 'test'
+      ...
+    # Subtest: BB-DT-06 admin event creation with valid student session
+    ok 26 - BB-DT-06 admin event creation with valid student session
+      ---
+      duration_ms: 7.1472
+      type: 'test'
+      ...
+    # Subtest: BB-DT-07 admin event creation with valid admin session
+    ok 27 - BB-DT-07 admin event creation with valid admin session
+      ---
+      duration_ms: 9.0732
+      type: 'test'
+      ...
+    1..27
+ok 2 - EC4206 black-box HTTP tests
+  ---
+  duration_ms: 2034.3553
+  type: 'test'
+  ...
+# MongoDB connected successfully
+# Subtest: password changes validate credentials, persist hashes and revoke sessions
+    # Subtest: requires auth and rejects targeting, role, email and unknown fields
+    ok 1 - requires auth and rejects targeting, role, email and unknown fields
+      ---
+      duration_ms: 38.6087
+      type: 'test'
+      ...
+    # Subtest: rejects missing, invalid, mismatched, same and bcrypt-truncated passwords
+    ok 2 - rejects missing, invalid, mismatched, same and bcrypt-truncated passwords
+      ---
+      duration_ms: 230.1656
+      type: 'test'
+      ...
+    # Subtest: incorrect current password fails without revoking valid sessions
+    ok 3 - incorrect current password fails without revoking valid sessions
+      ---
+      duration_ms: 76.4491
+      type: 'test'
+      ...
+    # Subtest: database failure returns safe error and leaves the old password valid
+    ok 4 - database failure returns safe error and leaves the old password valid
+      ---
+      duration_ms: 224.6705
+      type: 'test'
+      ...
+    # Subtest: saves a bcrypt hash only for the authenticated user and returns no secrets
+    ok 5 - saves a bcrypt hash only for the authenticated user and returns no secrets
+      ---
+      duration_ms: 364.7417
+      type: 'test'
+      ...
+    # Subtest: revokes all own sessions, rejects old login, permits new login and preserves others
+    ok 6 - revokes all own sessions, rejects old login, permits new login and preserves others
+      ---
+      duration_ms: 245.8232
+      type: 'test'
+      ...
+    1..6
+ok 3 - password changes validate credentials, persist hashes and revoke sessions
+  ---
+  duration_ms: 1900.5235
+  type: 'test'
+  ...
+# MongoDB connected successfully
+# Subtest: own-profile updates preserve identity, sessions and authorization
+    # Subtest: requires authentication and rejects mass assignment and targeting another user
+    ok 1 - requires authentication and rejects mass assignment and targeting another user
+      ---
+      duration_ms: 48.0871
+      type: 'test'
+      ...
+    # Subtest: validates strings, lengths, required name and contact format without partial saves
+    ok 2 - validates strings, lengths, required name and contact format without partial saves
+      ---
+      duration_ms: 54.6595
+      type: 'test'
+      ...
+    # Subtest: trims and persists all fields, returns only safe data, and survives fresh identity requests
+    ok 3 - trims and persists all fields, returns only safe data, and survives fresh identity requests
+      ---
+      duration_ms: 15.1174
+      type: 'test'
+      ...
+    # Subtest: optional fields can be cleared and omitted fields remain unchanged
+    ok 4 - optional fields can be cleared and omitted fields remain unchanged
+      ---
+      duration_ms: 8.5643
+      type: 'test'
+      ...
+    # Subtest: server errors return a safe message
+    ok 5 - server errors return a safe message
+      ---
+      duration_ms: 3.9993
+      type: 'test'
+      ...
+    # Subtest: logout revokes updates and login restores persisted profile without changing privileges
+    ok 6 - logout revokes updates and login restores persisted profile without changing privileges
+      ---
+      duration_ms: 83.1581
+      type: 'test'
+      ...
+    1..6
+ok 4 - own-profile updates preserve identity, sessions and authorization
+  ---
+  duration_ms: 614.8921
+  type: 'test'
+  ...
+# Subtest: TDD-01 empty event catalogue gives an honest upcoming-events reply
+ok 5 - TDD-01 empty event catalogue gives an honest upcoming-events reply
+  ---
+  duration_ms: 0.6282
+  type: 'test'
+  ...
+# Subtest: TDD-02 historical event details retain their order and format
+ok 6 - TDD-02 historical event details retain their order and format
+  ---
+  duration_ms: 12.4173
+  type: 'test'
+  ...
+# MongoDB connected successfully
+# Subtest: EC4206 white-box authentication paths
+    # Subtest: WB-01 missing Authorization header
+    ok 1 - WB-01 missing Authorization header
+      ---
+      duration_ms: 2.8971
+      type: 'test'
+      ...
+    # Subtest: WB-02 malformed bearer token
+    ok 2 - WB-02 malformed bearer token
+      ---
+      duration_ms: 1.5099
+      type: 'test'
+      ...
+    # Subtest: WB-03 unknown well-formed token
+    ok 3 - WB-03 unknown well-formed token
+      ---
+      duration_ms: 3.0885
+      type: 'test'
+      ...
+    # Subtest: WB-04 expired student session
+    ok 4 - WB-04 expired student session
+      ---
+      duration_ms: 2.8109
+      type: 'test'
+      ...
+    # Subtest: WB-05 revoked admin session
+    ok 5 - WB-05 revoked admin session
+      ---
+      duration_ms: 3.3739
+      type: 'test'
+      ...
+    # Subtest: WB-06 active session with no populated user
+    ok 6 - WB-06 active session with no populated user
+      ---
+      duration_ms: 5.7486
+      type: 'test'
+      ...
+    # Subtest: WB-07 active student session reaches identity handler
+    ok 7 - WB-07 active student session reaches identity handler
+      ---
+      duration_ms: 4.6701
+      type: 'test'
+      ...
+    # Subtest: WB-08 active admin session reaches identity handler
+    ok 8 - WB-08 active admin session reaches identity handler
+      ---
+      duration_ms: 4.218
+      type: 'test'
+      ...
+    # Subtest: WB-09 database rejection reaches Express error handler
+    ok 9 - WB-09 database rejection reaches Express error handler
+      ---
+      duration_ms: 2.2283
+      type: 'test'
+      ...
+    1..9
+ok 7 - EC4206 white-box authentication paths
+  ---
+  duration_ms: 609.1327
+  type: 'test'
+  ...
+1..7
+# tests 66
+# suites 0
+# pass 66
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6515.812
+# start of coverage report
+# --------------------------------------------------------------------------
+# file                      | line % | branch % | funcs % | uncovered lines
+# --------------------------------------------------------------------------
+# config                    |        |          |         | 
+#  db.js                    | 100.00 |    50.00 |  100.00 | 
+# lib                       |        |          |         | 
+#  upcomingEventFallback.js | 100.00 |   100.00 |  100.00 | 
+# middleware                |        |          |         | 
+#  auth.js                  | 100.00 |   100.00 |  100.00 | 
+# models                    |        |          |         | 
+#  Announcement.js          | 100.00 |   100.00 |  100.00 | 
+#  CampusLocation.js        | 100.00 |   100.00 |  100.00 | 
+#  event.js                 | 100.00 |   100.00 |  100.00 | 
+#  LibraryResource.js       | 100.00 |   100.00 |  100.00 | 
+#  Schedule.js              | 100.00 |   100.00 |  100.00 | 
+#  Session.js               | 100.00 |   100.00 |  100.00 | 
+#  User.js                  | 100.00 |   100.00 |  100.00 | 
+# routes                    |        |          |         | 
+#  assistantRoutes.js       |  96.88 |    97.83 |   90.48 | 50-51 74
+#  authRoutes.js            | 100.00 |    95.89 |  100.00 | 
+#  eventRoutes.js           | 100.00 |   100.00 |  100.00 | 
+#  resourceRoutes.js        | 100.00 |    90.91 |  100.00 | 
+# server.js                 |  83.33 |    80.00 |   16.67 | 24-28
+# --------------------------------------------------------------------------
+# all files                 |  98.13 |    94.76 |   87.93 | 
+# --------------------------------------------------------------------------
+# end of coverage report
+Saved backend runtime LCOV with repository-relative paths
+Disposable MongoDB data directory removed
+# Runner exit code: 0

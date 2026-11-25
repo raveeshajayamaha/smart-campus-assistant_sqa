@@ -1,0 +1,8 @@
+﻿UTC 2026-11-25T06:18:01.6899206Z
+Tracked and unignored candidate paths reviewed: 675
+Candidate sensitive/generated filename matches: backend/.env.example
+Candidate content signature match count: 0
+History filename matches: backend/.env.example
+Confirmed ignored paths: backend/.env, coverage/manual-mongo-21dfc1df30334a6e8e8f406b82487461, coverage/manual-resume-20261125-060240415, dist, node_modules, backend/node_modules
+JMeter dashboard paths present as publication candidates: 452
+Limitations: pattern scan of candidate content and path history only. No full-history content scan or OCR was performed. Review the staged files and any screenshots before publication.

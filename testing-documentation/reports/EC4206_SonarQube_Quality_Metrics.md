@@ -9,6 +9,7 @@
 | Backend regression and coverage | 66 passed, 0 failed, 0 skipped. 98.13% lines and 94.76% branches across 15 runtime files. | [TAP with V8 report](../evidence/section-3.9/backend-regression-coverage.tap), [LCOV](../evidence/section-3.9/backend-regression.lcov) |
 | Frontend code coverage | **Not Measured**. The existing Selenium suite exercises browser workflows without JavaScript coverage instrumentation. | [Selenium execution report](EC4206_Automation_CICD.md) |
 | SonarQube Cloud baseline | GitHub Actions succeeded. The Quality Gate **failed** because new-code security was **C** against required **A**. | [GitHub run](https://github.com/raveeshajayamaha/smart-campus-assistant_sqa/actions/runs/45420050634), [SonarQube Cloud](https://sonarcloud.io/project/overview?id=raveeshajayamaha_smart-campus-assistant_sqa) |
+| SonarQube Cloud remediation | **Passed** on `main` at `1bd7b42`. New-code security is **A** and all four workflow findings are marked fixed. | [GitHub run](https://github.com/raveeshajayamaha/smart-campus-assistant_sqa/actions/runs/45426972596), [Hosted API evidence](../evidence/section-3.9/hosted-analysis-1bd7b42.json) |
 | Historical backend application defect density | **2.51 defects per KLOC**, based on one confirmed application defect and 398 backend runtime source lines. | [Source-line inventory](../evidence/section-3.9/source-lines.json), [defect register](EC4206_Defect_Tracking.md) |
 
 ## Coverage method and results
@@ -80,7 +81,49 @@ Validation ran in a clean disposable copy of the tracked SQA files on Windows wi
 | Cucumber | 2 scenarios passed and all 9 steps passed. |
 | Selenium with local Chrome | 6 passed, 0 failed, 0 skipped. |
 
-The clean installs also reported separate npm audit findings. The frontend reported 11 (9 moderate, 2 high) and the backend 6 (4 moderate, 2 high). The lockfiles are unchanged. The next hosted run must confirm Ubuntu compatibility and SonarQube must reevaluate the four workflow findings and Quality Gate for the remediation commit.
+The clean installs also reported separate npm audit findings. The frontend reported 11 (9 moderate, 2 high) and the backend 6 (4 moderate, 2 high). The lockfiles are unchanged. The hosted run confirmed Ubuntu compatibility. Both `verify` and `sonarqube` succeeded, and GitHub listed the `backend-lcov` artifact. [GitHub Actions run](https://github.com/raveeshajayamaha/smart-campus-assistant_sqa/actions/runs/45426972596)
+
+### Hosted analysis after remediation
+
+SonarQube Cloud analyzed `main` at commit `1bd7b42648c07b92dbcd5a561dd2019b27a54bad` on **24 November 2026 at 21:05:29 Asia/Colombo**. Analysis `28dafdf1-7aa5-4de8-9a9e-7bd950dc77f2` recorded the gate transition from Red to Green. SonarQube marked both full-SHA findings (`S7637`) and both lifecycle-script findings (`S6505`) **Fixed**. The new-code security rating moved from **C** to **A**. [Dashboard](https://sonarcloud.io/project/overview?id=raveeshajayamaha_smart-campus-assistant_sqa) / [Hosted API evidence](../evidence/section-3.9/hosted-analysis-1bd7b42.json)
+
+| Measure | New code | Overall project |
+|---|---|---|
+| Quality Gate | **Passed** | |
+| Issues | **0** | **5 distinct open issues** |
+| Coverage | **Not computed**. SonarQube reported 0 eligible lines and 0 eligible conditions to cover. | **61.5%** |
+| Duplication | **0.0%** | **0.0%** |
+| Security | **A** | **B**, 1 open issue |
+| Reliability | **A** | **C**, 4 open issues |
+| Maintainability | **A** | **A**, 2 open issues |
+| Security hotspots | | **0** displayed |
+| Technical debt | | **30 minutes** of estimated remediation effort, from SonarQube's `sqale_index` measure |
+
+The local Node regression measured **98.13% lines, 94.76% branches and 87.93% functions** across 15 backend runtime files. SonarQube's **61.5%** is the overall project coverage measure from the CI-based analysis, with the frontend in scope and backend LCOV as the coverage input. Frontend test coverage was **Not Measured**. [Local LCOV](../evidence/section-3.9/backend-regression.lcov) / [Hosted measures](../evidence/section-3.9/hosted-analysis-1bd7b42.json)
+
+### Open issues
+
+SonarQube reports five distinct open issues. Two appear in both reliability and maintainability because they affect both qualities. The API's issue-type measures list one vulnerability, one bug and three code smells. The effort values are SonarQube estimates. [Hosted issue records](../evidence/section-3.9/hosted-analysis-1bd7b42.json)
+
+| File and line | Rule | Quality impact and finding | Estimated effort |
+|---|---|---|---|
+| `backend/server.js:6` | `javascript:S5689` | Security, Low. Framework version information may be disclosed by default. | 5 min |
+| `backend/routes/authRoutes.js:10` | `javascript:S8786` | Reliability, Medium. Regular-expression backtracking can increase runtime. | 20 min |
+| `backend/routes/resourceRoutes.js:4` | `javascript:S7737` | Reliability and maintainability, Medium. An object literal is used as the default for `sort`. | 5 min |
+| `src/pages/AdminDashboard.tsx:84` | `typescript:S9383` | Reliability, Medium. A promise lacks explicit rejection handling. | 5 min |
+| `src/pages/AdminDashboard.tsx:193` | `typescript:S6845` | Reliability, Medium, and maintainability, Low. `tabIndex` is set on a noninteractive element. | 5 min |
+
+### Analysis warning and evidence captures
+
+The SonarQube background task succeeded and reported **one analysis warning**. The public API returned an empty warning-detail list, and unauthenticated access to the GitHub job log returned HTTP 403. The warning text, cause, and impact remain unverified. The saved JSON contains the public gate results for both analyses, branch measures, issue states, background task metadata, and GitHub job and artifact metadata. [Hosted API evidence](../evidence/section-3.9/hosted-analysis-1bd7b42.json) / [Scan job](https://github.com/raveeshajayamaha/smart-campus-assistant_sqa/actions/runs/45426972596/job/138562349285)
+
+Save these screenshots manually in `testing-documentation/evidence/section-3.9/` for the coursework submission.
+
+1. SonarQube **Overview**, showing `main`, the passed Quality Gate, and the new-code summary.
+2. SonarQube **Overall Code** or **Measures**, showing 61.5% coverage, 0.0% duplication, overall ratings, and 30 minutes of technical debt.
+3. SonarQube **Issues** with the open issues visible and **Activity** showing the Red-to-Green transition.
+4. The SonarQube warning banner expanded or the warning details from **Background Tasks**. Capture the exact text if available.
+5. The GitHub Actions run summary showing successful `verify` and `sonarqube` jobs and the `backend-lcov` artifact.
 
 ## Application defect density
 
@@ -98,4 +141,4 @@ DEF-001 was fixed before the measured baseline. This is a coursework defect-disc
 2. Add an API regression with no upcoming events and one historical event. Assert both the historical reply text and its returned source ID. The formatter test covers populated output in isolation, and V8 reported the route's historical source mapping at lines 50–51 uncovered.
 3. Add instrumented React tests for the existing login feedback and campus-search workflows. Preserve the Selenium workflow checks and export separate frontend LCOV before reporting a frontend percentage.
 
-The [traceability matrix](../test-plans/EC4206_Test_Plan.md#8-requirements-to-test-traceability-matrix) records the measured backend coverage and pending SonarQube scan under QR-04. All 36 manual cases retain **Not Run**. Section 3.9 still requires a new hosted scan of the remediation, confirmation that the four findings are resolved and LCOV was imported, and dashboard evidence for the resulting metrics and Quality Gate.
+The [traceability matrix](../test-plans/EC4206_Test_Plan.md#8-requirements-to-test-traceability-matrix) records the measured backend coverage and passed hosted Quality Gate under QR-04. TC-001 passed by user confirmation. TC-005 has a partial login observation, and its formal status is Not Run. The other 34 manual cases remain Not Run. The fresh local TC-036 commands passed at the same application revision. The guide's fresh hosted scan and matching analysis evidence remain pending. [Automated catalogue results](EC4206_Automated_Execution_Results.md) The hosted metrics are documented and supported by saved API evidence. Dashboard screenshots and the warning details remain to be captured.

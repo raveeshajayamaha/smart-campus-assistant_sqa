@@ -1,0 +1,16 @@
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using C:\Users\USER\Downloads\testing tute\smart-campus-assistant-sqa\backend\testing\section-3.7\campus-read-only.jmx
+Starting standalone test @ 2026 Nov 24 12:03:38 IST (1795502018471)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =    200 in 00:00:15 =   13.7/s Avg:     4 Min:     0 Max:    28 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Nov 24 12:03:53 IST (1795502033146)
+... end of run
+
+Java process exit code: 0
+Stage wall time including startup and dashboard generation (s): 18.47
+Peak sampled host CPU (%): 57.0
+Minimum sampled available host memory (MiB): 724

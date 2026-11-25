@@ -83,6 +83,6 @@ The role is evaluated only after the bearer header and session pass authenticati
 | Decision table | 7 | 7 | 7 | 0 | 0 |
 | Total scenarios | 27 | 27 | 27 | 0 | 0 |
 
-Node reported **28 passed, 0 failed and 0 skipped**, counting the parent test and its 27 subtests. The process exited with code 0. No deviations from the expected results were observed. The previous Step 2 baseline remains 26 passed. The earlier Section 3.2 cases retain their recorded statuses because this run exercised the new BB identifiers.
+Node reported **28 passed, 0 failed and 0 skipped**, counting the parent test and its 27 subtests. The process exited with code 0. No deviations from the expected results were observed. The previous Step 2 baseline remains 26 passed. The historical BB identifiers are distinct from the catalogue checks. The later run exercised the related registration, permissions and assistant boundary cases under their TC identifiers. [Automated catalogue results](EC4206_Automated_Execution_Results.md)
 
 The suite demonstrated acceptance and rejection across both length ranges and showed that only the active administrator could create an event. These results apply to the tested HTTP inputs and the representative administrator write. Browser form behaviour, other administrator operations and Unicode boundary variants were outside this execution. The [test plan matrix](../test-plans/EC4206_Test_Plan.md#8-requirements-to-test-traceability-matrix) links the executed IDs to the existing requirements.

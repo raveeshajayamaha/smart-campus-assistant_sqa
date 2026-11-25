@@ -1,0 +1,5 @@
+﻿HEAD 1bd7b42648c07b92dbcd5a561dd2019b27a54bad
+MongoDB mongodb://127.0.0.1:27960/?directConnection=true
+Node v25.6.0
+ChromeDriver ChromeDriver 157.0.8103.78 (4b3d0dabb8250b6f152d2d85d79e7706e309d087-refs/branch-heads/8103@{#1573})
+Tracked source and configuration status:

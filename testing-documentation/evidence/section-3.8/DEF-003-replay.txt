@@ -1,0 +1,18 @@
+﻿[original] One user, 1-second ramp, 10 loops, 20 expected samples
+Loopback preflight passed. Starting up to four bounded JMeter stages.
+users-1 verified 20 successful requests, 1 peak active threads
+Wrapper exit code: 0
+Successful HTTP 200 assertion samples: 20/20
+Fixture transcript present: False
+[corrected] One user, 1-second ramp, 10 loops, 20 expected samples
+Loopback preflight passed. Starting up to four bounded JMeter stages.
+users-1 verified 20 successful requests, 1 peak active threads
+Wrapper exit code: 0
+Successful HTTP 200 assertion samples: 20/20
+Fixture transcript present: True
+Disposable MongoDB is ready on 127.0.0.1:27937
+MongoDB connected successfully
+Local API: http://127.0.0.1:51937 | Synthetic events: 100
+Preflight: GET /api/events returned 200 with 100 synthetic events; GET /api/test returned 200.
+Disposable MongoDB data directory removed
+Fixture exit code: 0

@@ -1,0 +1,158 @@
+{
+  "head": "ee7e5e28b537497a7a64d405a2717d12107d5fd5",
+  "typescriptVersion": "6.0.3",
+  "backendRuntimeSLOC": 398,
+  "frontendSLOC": 2068,
+  "files": [
+    {
+      "file": "backend/config/db.js",
+      "scope": "backend-runtime",
+      "lines": 6
+    },
+    {
+      "file": "backend/lib/upcomingEventFallback.js",
+      "scope": "backend-runtime",
+      "lines": 10
+    },
+    {
+      "file": "backend/middleware/auth.js",
+      "scope": "backend-runtime",
+      "lines": 23
+    },
+    {
+      "file": "backend/models/Announcement.js",
+      "scope": "backend-runtime",
+      "lines": 8
+    },
+    {
+      "file": "backend/models/CampusLocation.js",
+      "scope": "backend-runtime",
+      "lines": 9
+    },
+    {
+      "file": "backend/models/LibraryResource.js",
+      "scope": "backend-runtime",
+      "lines": 9
+    },
+    {
+      "file": "backend/models/Schedule.js",
+      "scope": "backend-runtime",
+      "lines": 13
+    },
+    {
+      "file": "backend/models/Session.js",
+      "scope": "backend-runtime",
+      "lines": 6
+    },
+    {
+      "file": "backend/models/User.js",
+      "scope": "backend-runtime",
+      "lines": 32
+    },
+    {
+      "file": "backend/models/event.js",
+      "scope": "backend-runtime",
+      "lines": 38
+    },
+    {
+      "file": "backend/routes/assistantRoutes.js",
+      "scope": "backend-runtime",
+      "lines": 88
+    },
+    {
+      "file": "backend/routes/authRoutes.js",
+      "scope": "backend-runtime",
+      "lines": 90
+    },
+    {
+      "file": "backend/routes/eventRoutes.js",
+      "scope": "backend-runtime",
+      "lines": 1
+    },
+    {
+      "file": "backend/routes/resourceRoutes.js",
+      "scope": "backend-runtime",
+      "lines": 35
+    },
+    {
+      "file": "backend/server.js",
+      "scope": "backend-runtime",
+      "lines": 30
+    },
+    {
+      "file": "src/App.tsx",
+      "scope": "frontend-ts-tsx",
+      "lines": 22
+    },
+    {
+      "file": "src/components/CampusLayout.tsx",
+      "scope": "frontend-ts-tsx",
+      "lines": 21
+    },
+    {
+      "file": "src/components/ProtectedRoute.tsx",
+      "scope": "frontend-ts-tsx",
+      "lines": 23
+    },
+    {
+      "file": "src/lib/api.ts",
+      "scope": "frontend-ts-tsx",
+      "lines": 30
+    },
+    {
+      "file": "src/lib/useRecords.ts",
+      "scope": "frontend-ts-tsx",
+      "lines": 12
+    },
+    {
+      "file": "src/main.tsx",
+      "scope": "frontend-ts-tsx",
+      "lines": 10
+    },
+    {
+      "file": "src/pages/AdminDashboard.tsx",
+      "scope": "frontend-ts-tsx",
+      "lines": 195
+    },
+    {
+      "file": "src/pages/Assistant.tsx",
+      "scope": "frontend-ts-tsx",
+      "lines": 341
+    },
+    {
+      "file": "src/pages/CampusPage.tsx",
+      "scope": "frontend-ts-tsx",
+      "lines": 25
+    },
+    {
+      "file": "src/pages/ChangePasswordForm.tsx",
+      "scope": "frontend-ts-tsx",
+      "lines": 71
+    },
+    {
+      "file": "src/pages/Home.tsx",
+      "scope": "frontend-ts-tsx",
+      "lines": 304
+    },
+    {
+      "file": "src/pages/Login.tsx",
+      "scope": "frontend-ts-tsx",
+      "lines": 215
+    },
+    {
+      "file": "src/pages/Profile.tsx",
+      "scope": "frontend-ts-tsx",
+      "lines": 140
+    },
+    {
+      "file": "src/pages/Register.tsx",
+      "scope": "frontend-ts-tsx",
+      "lines": 265
+    },
+    {
+      "file": "src/pages/StudentDashboard.tsx",
+      "scope": "frontend-ts-tsx",
+      "lines": 394
+    }
+  ]
+}

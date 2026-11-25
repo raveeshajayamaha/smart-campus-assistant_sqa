@@ -1,0 +1,11 @@
+2026-11-25T06:14:26.819Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067cc299b54093f603658f","name":"Test Student","email":"tc-033-dd9da4be@example.test","role":"student","createdAt":"2026-11-25T06:14:26.816Z","updatedAt":"2026-11-25T06:14:26.816Z"}}
+2026-11-25T06:14:26.888Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067cc299b54093f603658f","name":"Test Student","email":"tc-033-dd9da4be@example.test","role":"admin","createdAt":"2026-11-25T06:14:26.816Z","updatedAt":"2026-11-25T06:14:26.819Z"}}
+2026-11-25T06:14:26.893Z POST locations HTTP 201 {"success":true,"location":{"name":"Main Library","building":"Central Building","description":"Study area","category":"Library","openingHours":"08:00-18:00","directions":"Ground floor","_id":"6b067cc299b54093f6036591","createdAt":"2026-11-25T06:14:26.892Z","updatedAt":"2026-11-25T06:14:26.892Z","__v":0}}
+2026-11-25T06:14:26.976Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067cc299b54093f6036592","name":"Test Student","email":"tc-033-80a52598@example.test","role":"student","createdAt":"2026-11-25T06:14:26.974Z","updatedAt":"2026-11-25T06:14:26.974Z"}}
+2026-11-25T06:14:27.037Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067cc299b54093f6036592","name":"Test Student","email":"tc-033-80a52598@example.test","role":"student","createdAt":"2026-11-25T06:14:26.974Z","updatedAt":"2026-11-25T06:14:26.974Z"}}
+2026-11-25T06:14:30.664Z Intercepted /api/locations only
+2026-11-25T06:14:31.086Z [role=alert] displayed Retry
+2026-11-25T06:14:31.246Z Screenshot interrupted http://127.0.0.1:61941/locations
+2026-11-25T06:14:31.704Z .campus-card displayed Main Library
+2026-11-25T06:14:31.896Z Screenshot recovered http://127.0.0.1:61941/locations
+2026-11-25T06:14:31.962Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

@@ -1,0 +1,5 @@
+2026-11-25T06:13:57.686Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067ca599b54093f6036537","name":"Test Student","email":"tc-014-68d37651@example.test","role":"student","createdAt":"2026-11-25T06:13:57.684Z","updatedAt":"2026-11-25T06:13:57.684Z"}}
+2026-11-25T06:13:57.755Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067ca599b54093f6036537","name":"Test Student","email":"tc-014-68d37651@example.test","role":"student","createdAt":"2026-11-25T06:13:57.684Z","updatedAt":"2026-11-25T06:13:57.684Z"}}
+2026-11-25T06:13:57.758Z PUT auth/profile HTTP 400 {"success":false,"message":"Only name, student ID, faculty, department, year/semester and contact number can be updated."}
+2026-11-25T06:13:57.762Z GET auth/me HTTP 200 {"success":true,"user":{"id":"6b067ca599b54093f6036537","name":"Test Student","email":"tc-014-68d37651@example.test","role":"student","createdAt":"2026-11-25T06:13:57.684Z","updatedAt":"2026-11-25T06:13:57.684Z"}}
+2026-11-25T06:13:57.762Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

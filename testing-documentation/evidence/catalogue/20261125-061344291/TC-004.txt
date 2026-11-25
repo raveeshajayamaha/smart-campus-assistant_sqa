@@ -1,0 +1,2 @@
+2026-11-25T06:13:50.492Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067c9e99b54093f603651f","name":"Test Student","email":"tc-004-22074313@example.test","role":"student","createdAt":"2026-11-25T06:13:50.490Z","updatedAt":"2026-11-25T06:13:50.490Z"}}
+2026-11-25T06:13:50.492Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

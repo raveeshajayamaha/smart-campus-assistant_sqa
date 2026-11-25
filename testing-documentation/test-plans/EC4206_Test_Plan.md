@@ -88,28 +88,36 @@ Apply black-box equivalence partitioning and boundary value analysis to input le
 | `npm.cmd run lint` | Exit code 0 with no diagnostics. |
 | `npm.cmd run build` | Exit code 0. TypeScript and Vite produced the production build. |
 
-The baseline establishes API regression and HTTP availability evidence. Browser execution, user acceptance, branch coverage measurement, load testing, SonarQube analysis and the proposed cases below remain pending. The existing tests listed in the matrix are references for reuse and do not assign outcomes to the new case IDs.
+This historical baseline established API regression and HTTP availability. Later evidence includes browser execution, local branch coverage, bounded load measurement and hosted SonarQube analysis. The matrix records current catalogue outcomes.
 
 ## 8. Requirements-to-test traceability matrix
 
-The requirements below are derived from implemented behaviour and the proposed quality objectives. H means high priority and M means medium priority. All planned cases in the [Section 3.2 case catalogue](../test-cases/EC4206_Test_Cases.md) are **Not Run**. The separate BB IDs link to the [Section 3.3 execution report](../reports/EC4206_Black_Box_Testing.md) and passed in that run. The WB IDs link to the [Section 3.4 execution and coverage report](../reports/EC4206_White_Box_Testing.md) and passed in the focused run. The Status column records the Section 3.2 cases. TDD-01 and TDD-02 passed after the fix. BDD-01 and BDD-02 passed in Cucumber. See the [Section 3.5 report](../reports/EC4206_TDD_BDD_Testing.md) for the TDD and BDD execution evidence. AUTO-01 through AUTO-05 passed in the local Selenium run. See the [Section 3.6 report](../reports/EC4206_Automation_CICD.md) for results and screenshots. See the [STLC report](../reports/EC4206_STLC.md#coverage-and-remaining-gaps) for remaining gaps.
+The requirements below are derived from implemented behaviour and the proposed quality objectives. H means high priority and M means medium priority. [Manual results](../test-cases/EC4206_Manual_Execution_Results.csv) record TC-001 as Passed and TC-005 as a partial observation with status Not Run. [Automated results](../reports/EC4206_Automated_Execution_Results.md) record a separate catalogue run. The separate BB IDs link to the [Section 3.3 execution report](../reports/EC4206_Black_Box_Testing.md) and passed in that run. The WB IDs link to the [Section 3.4 execution and coverage report](../reports/EC4206_White_Box_Testing.md) and passed in the focused run. The last two columns distinguish manual records from automated catalogue outcomes. TDD-01 and TDD-02 passed after the fix. BDD-01 and BDD-02 passed in Cucumber. See the [Section 3.5 report](../reports/EC4206_TDD_BDD_Testing.md) for the TDD and BDD execution evidence. AUTO-01 through AUTO-05 passed in the local Selenium run. See the [Section 3.6 report](../reports/EC4206_Automation_CICD.md) for results and screenshots. See the [STLC report](../reports/EC4206_STLC.md#coverage-and-remaining-gaps) for remaining gaps.
 
-| Requirement ID and expected behaviour | Case IDs and execution references | Priority | Baseline reference | Status |
-|---|---|---|---|---|
-| FR-01 Registration creates student accounts | TC-001, TC-002, TC-003, TC-004, BB-EP-01, BB-EP-02, BB-EP-03, BB-EP-04, BB-EP-05, BB-BV-01, BB-BV-02, BB-BV-03, BB-BV-04, BB-BV-05, BB-BV-06 | H | API suite | Not Run |
-| FR-02 Login and logout control access | TC-005, TC-006, TC-007, TC-008, TC-009, BB-DT-01, BB-DT-02, BB-DT-03, BB-DT-04, BB-DT-05, WB-01, WB-02, WB-03, WB-04, WB-05, WB-06, WB-07, WB-08, WB-09, AUTO-01, AUTO-02, AUTO-03 | H | API suite | Not Run |
-| FR-03 Administrator writes require permission | TC-010, TC-011, BB-DT-01, BB-DT-02, BB-DT-03, BB-DT-04, BB-DT-05, BB-DT-06, BB-DT-07, AUTO-04 | H | API suite | Not Run |
-| FR-04 Users can update their own profile | TC-012, TC-013, TC-014 | H | Profile suite | Not Run |
-| FR-05 Password changes revoke sessions | TC-015, TC-016, TC-017, TC-018 | H | Password suite | Not Run |
-| FR-06 Administrator changes persist across all five campus collections | TC-019, TC-020, TC-021, TC-022, TC-023, TC-024, BDD-01 | H | API suite | Not Run |
-| FR-07 Schedule times are validated | TC-025 | H | API suite | Not Run |
-| FR-08 Campus pages display and filter records | TC-026, TC-027, BDD-01, AUTO-03 | M | Browser script available | Not Run |
-| FR-09 Assistant answers from current campus data | TC-028, TC-029, TDD-02, BDD-01, AUTO-05 | H | API suite covers assistant lookup | Not Run |
-| FR-10 Assistant validates input and handles missing data | TC-030, TC-031, TC-032, BB-EP-06, BB-EP-07, BB-EP-08, BB-BV-07, BB-BV-08, BB-BV-09, BB-BV-10, BB-BV-11, BB-BV-12, TDD-01, BDD-02 | M | API suite covers missing data | Not Run |
-| QR-01 Student workflow recovers from a service interruption | TC-033 | H | None recorded | Not Run |
-| QR-02 Selected endpoints meet agreed performance thresholds | TC-034 | M | None recorded | Not Run |
-| QR-03 Campus tasks can be completed using keyboard controls | TC-035 | M | None recorded | Not Run |
-| QR-04 Quality checks give repeatable results | TC-036 | M | Lint and build | Not Run |
+| Requirement ID and expected behaviour | Case IDs and execution references | Priority | Baseline reference | Manual status | Automated catalogue status |
+|---|---|---|---|---|---|
+| FR-01 Registration creates student accounts | TC-001, TC-002, TC-003, TC-004, BB-EP-01, BB-EP-02, BB-EP-03, BB-EP-04, BB-EP-05, BB-BV-01, BB-BV-02, BB-BV-03, BB-BV-04, BB-BV-05, BB-BV-06, USE-01 | H | API suite | TC-001 Passed; TC-002–004 Not Run | TC-002–004 Pass |
+| FR-02 Login and logout control access | TC-005, TC-006, TC-007, TC-008, TC-009, BB-DT-01, BB-DT-02, BB-DT-03, BB-DT-04, BB-DT-05, WB-01, WB-02, WB-03, WB-04, WB-05, WB-06, WB-07, WB-08, WB-09, AUTO-01, AUTO-02, AUTO-03, SEC-01, SEC-02, SEC-03, USE-02, USE-03 | H | API suite | TC-005 partial observation; TC-005–009 Not Run | TC-005–009 Pass |
+| FR-03 Administrator writes require permission | TC-010, TC-011, BB-DT-01, BB-DT-02, BB-DT-03, BB-DT-04, BB-DT-05, BB-DT-06, BB-DT-07, AUTO-04, SEC-04, SEC-05, SEC-06 | H | API suite | Not Run | TC-010–011 Pass |
+| FR-04 Users can update their own profile | TC-012, TC-013, TC-014 | H | Profile suite | Not Run | TC-012–014 Pass |
+| FR-05 Password changes revoke sessions | TC-015, TC-016, TC-017, TC-018 | H | Password suite | Not Run | TC-015–018 Pass |
+| FR-06 Administrator changes persist across all five campus collections | TC-019, TC-020, TC-021, TC-022, TC-023, TC-024, BDD-01, SEC-06, SEC-07, SEC-08 | H | API suite | Not Run | TC-019–024 Pass |
+| FR-07 Schedule times are validated | TC-025 | H | API suite | Not Run | TC-025 Pass |
+| FR-08 Campus pages display and filter records | TC-026, TC-027, BDD-01, AUTO-03, USE-04 | M | Browser script available | Not Run | TC-026–027 Pass |
+| FR-09 Assistant answers from current campus data | TC-028, TC-029, TDD-02, BDD-01, AUTO-05, USE-05 | H | API suite covers assistant lookup | Not Run | TC-028–029 Pass |
+| FR-10 Assistant validates input and handles missing data | TC-030, TC-031, TC-032, BB-EP-06, BB-EP-07, BB-EP-08, BB-BV-07, BB-BV-08, BB-BV-09, BB-BV-10, BB-BV-11, BB-BV-12, TDD-01, BDD-02, DEF-001 | M | API suite covers missing data | Not Run | TC-030–032 Pass |
+| QR-01 Student workflow recovers from a service interruption | TC-033 | H | None recorded | Not Run | TC-033 Pass |
+| QR-02 Selected endpoints meet agreed performance thresholds | TC-034, PERF-01, PERF-02 | M | JMeter localhost run at 1, 5, 10 and 20 users | Not Run | TC-034 Blocked (approved targets and workload) |
+| QR-03 Campus tasks can be completed using keyboard controls | TC-035 | M | None recorded | Not Run | TC-035 Blocked (peer evaluation) |
+| QR-04 Quality checks give repeatable results | TC-036, DEF-002, DEF-003 | M | Lint, build, backend regression coverage and SonarQube Cloud Quality Gate passed on `main` at `1bd7b42` | Not Run | TC-036 Blocked (local checks passed; fresh hosted scan pending) |
+
+Section 3.7 IDs link to the [performance, security and usability report](../reports/EC4206_Performance_Security_Usability.md). SEC-01 through SEC-08 and USE-01 through USE-05 passed in the local execution. PERF-01 and PERF-02 completed all four JMeter stages with 1,420 successful samples and zero errors. Assessment against QR-02 response-time and throughput thresholds is pending agreement on those thresholds. The Manual status column tracks the 36 manual cases.
+
+Section 3.8 defects are documented in the [defect register](../reports/EC4206_Defect_Tracking.md). DEF-001 and DEF-002 are historical fixes verified by existing evidence and focused checks. DEF-003 was reproduced, corrected, verified and closed in the local register.
+
+Section 3.9 records 66 passing backend regression tests and local Node coverage of 98.13% lines, 94.76% branches and 87.93% functions across 15 runtime files. Frontend coverage remains Not Measured. SonarQube Cloud passed its Quality Gate on `main` at `1bd7b42`, with 0 new issues and 61.5% overall project coverage. The result is automated evidence for QR-04. [Hosted API evidence](../evidence/section-3.9/hosted-analysis-1bd7b42.json). See the [quality metrics report](../reports/EC4206_SonarQube_Quality_Metrics.md).
+
+Section 3.10 synthesises existing evidence for the library-hours workflow (FR-06, FR-08 and FR-09 via BDD-01 and AUTO-05), the empty-catalogue fallback (FR-10 via TDD-01, TDD-02 and BDD-02), and repeatable quality checks (QR-04 via hosted CI and SonarQube). The [case study](../reports/EC4206_Case_Study_Best_Practices.md) records the limits of this evidence. Human usability evaluation remains Not Run. TC-028 additionally verified the complete browser update workflow.
 
 ## 9. Roles, responsibilities and adjustable schedule
 

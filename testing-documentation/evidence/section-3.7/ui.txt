@@ -1,0 +1,11 @@
+Disposable MongoDB is ready on 127.0.0.1:27939
+MongoDB connected successfully
+Local API: http://127.0.0.1:52335 | Synthetic events: 100
+Chrome version: 157.0.8103.80
+USE-01 PASS Registration accepted the fixture and opened the login page.
+USE-02 PASS Wrong password displayed Invalid email or password and kept the login page open.
+USE-03 PASS Valid login opened the student dashboard with a campus map link.
+USE-04 PASS Campus Map navigation worked, search filtered a non-match and a matching record.
+USE-05 PASS Assistant displayed fixture-backed library hours in the transcript.
+Disposable MongoDB data directory removed
+Process exit code: 0

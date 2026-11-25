@@ -1,0 +1,6 @@
+Disposable MongoDB is ready on 127.0.0.1:27937
+MongoDB connected successfully
+Local API: http://127.0.0.1:52321 | Synthetic events: 100
+Preflight: GET /api/events returned 200 with 100 synthetic events; GET /api/test returned 200.
+Disposable MongoDB data directory removed
+Process exit code: 0

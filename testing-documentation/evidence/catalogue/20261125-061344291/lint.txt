@@ -1,0 +1,4 @@
+
+> smart-campus-assistant@0.0.0 lint
+> eslint .
+

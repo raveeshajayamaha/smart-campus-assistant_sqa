@@ -1,0 +1,12 @@
+2026-11-25T06:14:06.924Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067cae99b54093f6036574","name":"Test Student","email":"tc-027-8acc1eb5@example.test","role":"student","createdAt":"2026-11-25T06:14:06.919Z","updatedAt":"2026-11-25T06:14:06.919Z"}}
+2026-11-25T06:14:06.993Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067cae99b54093f6036574","name":"Test Student","email":"tc-027-8acc1eb5@example.test","role":"admin","createdAt":"2026-11-25T06:14:06.919Z","updatedAt":"2026-11-25T06:14:06.925Z"}}
+2026-11-25T06:14:06.998Z POST locations HTTP 201 {"success":true,"location":{"name":"Main Library","building":"Central Building","description":"Study area","category":"Library","openingHours":"08:00-18:00","directions":"Ground floor","_id":"6b067cae99b54093f6036576","createdAt":"2026-11-25T06:14:06.997Z","updatedAt":"2026-11-25T06:14:06.997Z","__v":0}}
+2026-11-25T06:14:07.002Z POST locations HTTP 201 {"success":true,"location":{"name":"Sports Centre","building":"Central Building","description":"Study area","category":"Sports","openingHours":"08:00-18:00","directions":"Ground floor","_id":"6b067caf99b54093f6036577","createdAt":"2026-11-25T06:14:07.001Z","updatedAt":"2026-11-25T06:14:07.001Z","__v":0}}
+2026-11-25T06:14:07.098Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067caf99b54093f6036578","name":"Test Student","email":"tc-027-993313a0@example.test","role":"student","createdAt":"2026-11-25T06:14:07.096Z","updatedAt":"2026-11-25T06:14:07.096Z"}}
+2026-11-25T06:14:07.167Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067caf99b54093f6036578","name":"Test Student","email":"tc-027-993313a0@example.test","role":"student","createdAt":"2026-11-25T06:14:07.096Z","updatedAt":"2026-11-25T06:14:07.096Z"}}
+2026-11-25T06:14:12.087Z body displayed Main Library | Sports Centre
+2026-11-25T06:14:12.373Z .campus-card displayed Main Library
+2026-11-25T06:14:12.581Z Screenshot match http://127.0.0.1:61941/locations
+2026-11-25T06:14:12.774Z [role=status] displayed No matching records available.
+2026-11-25T06:14:12.946Z Screenshot empty http://127.0.0.1:61941/locations
+2026-11-25T06:14:13.026Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

@@ -1,0 +1,6 @@
+﻿2026-11-24 14:53:21 +05:30 | New | QA opened a local record after confirming the historical JMeter run has no fixture.txt.
+2026-11-24 14:53:21 +05:30 | Assigned | Codex, acting as the local QA operator for Section 3.8, took ownership of diagnosing and correcting the private benchmark wrapper.
+2026-11-24 14:53:46 +05:30 | Diagnosis | The original wrapper completed with exit 0 and 20 successful samples but failed to create fixture.txt after disconnect.
+2026-11-24 14:53:46 +05:30 | Fixed | Updated the local benchmark wrapper to await the child exit event and completion of both transcript streams after IPC disconnect.
+2026-11-24 14:54:04 +05:30 | Verified | The corrected replay exited 0, preserved the fixture preflight and cleanup transcript, and produced 20 successful samples.
+2026-11-24 14:54:04 +05:30 | Closed | QA closed the local evidence-capture defect after the focused retest. No GitHub issue state was changed.

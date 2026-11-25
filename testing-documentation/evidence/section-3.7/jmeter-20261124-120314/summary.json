@@ -1,0 +1,146 @@
+[
+  {
+    "users": 1,
+    "ramp": 1,
+    "loops": 10,
+    "peakThreads": 1,
+    "durationSeconds": 5.118,
+    "metrics": [
+      {
+        "sampler": "PERF-02 GET API health control",
+        "samples": 10,
+        "averageMs": 1.8,
+        "medianMs": 2,
+        "p95Ms": 2,
+        "requestsPerSecond": 2.083767451552407,
+        "errorPercent": 0
+      },
+      {
+        "sampler": "Total",
+        "samples": 20,
+        "averageMs": 8.049999999999999,
+        "medianMs": 3.5,
+        "p95Ms": 50.34999999999998,
+        "requestsPerSecond": 3.907776475185619,
+        "errorPercent": 0
+      },
+      {
+        "sampler": "PERF-01 GET campus events",
+        "samples": 10,
+        "averageMs": 14.3,
+        "medianMs": 10,
+        "p95Ms": 52,
+        "requestsPerSecond": 2.059308072487644,
+        "errorPercent": 0
+      }
+    ]
+  },
+  {
+    "users": 5,
+    "ramp": 5,
+    "loops": 20,
+    "peakThreads": 5,
+    "durationSeconds": 14.245,
+    "metrics": [
+      {
+        "sampler": "PERF-02 GET API health control",
+        "samples": 100,
+        "averageMs": 1.3699999999999992,
+        "medianMs": 1,
+        "p95Ms": 2,
+        "requestsPerSecond": 7.161784716751415,
+        "errorPercent": 0
+      },
+      {
+        "sampler": "Total",
+        "samples": 200,
+        "averageMs": 4.240000000000004,
+        "medianMs": 3,
+        "p95Ms": 10.949999999999989,
+        "requestsPerSecond": 14.040014040014041,
+        "errorPercent": 0
+      },
+      {
+        "sampler": "PERF-01 GET campus events",
+        "samples": 100,
+        "averageMs": 7.109999999999999,
+        "medianMs": 7,
+        "p95Ms": 12.949999999999989,
+        "requestsPerSecond": 7.152052639107424,
+        "errorPercent": 0
+      }
+    ]
+  },
+  {
+    "users": 10,
+    "ramp": 5,
+    "loops": 20,
+    "peakThreads": 10,
+    "durationSeconds": 14.754,
+    "metrics": [
+      {
+        "sampler": "PERF-02 GET API health control",
+        "samples": 200,
+        "averageMs": 1.1600000000000004,
+        "medianMs": 1,
+        "p95Ms": 2,
+        "requestsPerSecond": 13.81692573402418,
+        "errorPercent": 0
+      },
+      {
+        "sampler": "Total",
+        "samples": 400,
+        "averageMs": 3.5925,
+        "medianMs": 2.5,
+        "p95Ms": 8,
+        "requestsPerSecond": 27.111291853056798,
+        "errorPercent": 0
+      },
+      {
+        "sampler": "PERF-01 GET campus events",
+        "samples": 200,
+        "averageMs": 6.025000000000004,
+        "medianMs": 6,
+        "p95Ms": 10,
+        "requestsPerSecond": 13.801670002070251,
+        "errorPercent": 0
+      }
+    ]
+  },
+  {
+    "users": 20,
+    "ramp": 5,
+    "loops": 20,
+    "peakThreads": 20,
+    "durationSeconds": 14.998,
+    "metrics": [
+      {
+        "sampler": "PERF-02 GET API health control",
+        "samples": 400,
+        "averageMs": 1.6024999999999998,
+        "medianMs": 1,
+        "p95Ms": 3.9499999999999886,
+        "requestsPerSecond": 27.170221437304715,
+        "errorPercent": 0
+      },
+      {
+        "sampler": "Total",
+        "samples": 800,
+        "averageMs": 4.14875,
+        "medianMs": 3,
+        "p95Ms": 11,
+        "requestsPerSecond": 53.34044539271903,
+        "errorPercent": 0
+      },
+      {
+        "sampler": "PERF-01 GET campus events",
+        "samples": 400,
+        "averageMs": 6.695000000000001,
+        "medianMs": 6,
+        "p95Ms": 14,
+        "requestsPerSecond": 27.14072465734835,
+        "errorPercent": 0
+      }
+    ]
+  }
+]

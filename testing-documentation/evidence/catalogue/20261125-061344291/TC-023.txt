@@ -1,0 +1,4 @@
+2026-11-25T06:14:00.555Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067ca899b54093f603655f","name":"Test Student","email":"tc-023-343d3501@example.test","role":"student","createdAt":"2026-11-25T06:14:00.552Z","updatedAt":"2026-11-25T06:14:00.552Z"}}
+2026-11-25T06:14:00.621Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067ca899b54093f603655f","name":"Test Student","email":"tc-023-343d3501@example.test","role":"admin","createdAt":"2026-11-25T06:14:00.552Z","updatedAt":"2026-11-25T06:14:00.555Z"}}
+2026-11-25T06:14:00.624Z POST events HTTP 400 {"success":false,"message":"Invalid input. Check required fields, dates, times and links."}
+2026-11-25T06:14:00.624Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

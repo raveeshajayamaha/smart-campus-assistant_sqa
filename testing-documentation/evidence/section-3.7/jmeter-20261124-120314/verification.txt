@@ -1,0 +1,5 @@
+users-1 verified: 20 HTTP 200 assertion successes, 1 observed active threads; JTL, JMeter log and dashboard present.
+users-5 verified: 200 HTTP 200 assertion successes, 5 observed active threads; JTL, JMeter log and dashboard present.
+users-10 verified: 400 HTTP 200 assertion successes, 10 observed active threads; JTL, JMeter log and dashboard present.
+users-20 verified: 800 HTTP 200 assertion successes, 20 observed active threads; JTL, JMeter log and dashboard present.
+Post-run verification: benchmark ports 51937 and 27937 have no listeners, and no disposable MongoDB scratch directory remains.

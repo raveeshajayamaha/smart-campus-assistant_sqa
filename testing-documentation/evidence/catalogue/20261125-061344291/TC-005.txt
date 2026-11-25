@@ -1,0 +1,5 @@
+2026-11-25T06:13:50.767Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067c9e99b54093f6036520","name":"Test Student","email":"tc-005-7513b6d5@example.test","role":"student","createdAt":"2026-11-25T06:13:50.765Z","updatedAt":"2026-11-25T06:13:50.765Z"}}
+2026-11-25T06:13:50.833Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067c9e99b54093f6036520","name":"Test Student","email":"tc-005-7513b6d5@example.test","role":"student","createdAt":"2026-11-25T06:13:50.765Z","updatedAt":"2026-11-25T06:13:50.765Z"}}
+2026-11-25T06:13:50.833Z Login token has the expected format
+2026-11-25T06:13:50.874Z GET auth/me HTTP 200 {"success":true,"user":{"id":"6b067c9e99b54093f6036520","name":"Test Student","email":"tc-005-7513b6d5@example.test","role":"student","createdAt":"2026-11-25T06:13:50.765Z","updatedAt":"2026-11-25T06:13:50.765Z"}}
+2026-11-25T06:13:50.874Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

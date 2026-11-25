@@ -1,0 +1,13 @@
+Disposable MongoDB is ready on 127.0.0.1:27939
+MongoDB connected successfully
+Local API: http://127.0.0.1:53311 | Synthetic events: 100
+Chrome version: 157.0.8103.80
+11:46:43 AM [vite] (client) [optimizer] bundling dependencies...
+USE-01 PASS Registration accepted the fixture and opened the login page.
+USE-02 PASS Wrong password displayed Invalid email or password and kept the login page open.
+USE-03 FAIL TimeoutError
+Disposable MongoDB data directory removed
+TimeoutError: Wait timed out after 12181ms
+    at <checkout>\backend\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Process exit code: 1

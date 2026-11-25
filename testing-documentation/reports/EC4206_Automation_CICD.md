@@ -45,21 +45,19 @@ Local dependency verification compared both manifests with their lockfile root d
 | Selenium | 5 scenarios passed, with 5 screenshots | [Selenium TAP](../evidence/EC4206_Selenium_Rerun.tap) |
 | Workflow validation | YAML parsed successfully. Trigger, loopback database and artifact settings were checked, and Git Bash syntax validation passed for each shell step. | Local validation only |
 
-The Selenium suite is separate from the backend regression glob and runs with `test:ui`. Use a fresh `SELENIUM_EVIDENCE_DIR` to preserve old screenshots when repeating a run. The 36 separately designed manual cases remain **Not Run**.
+The Selenium suite is separate from the backend regression glob and runs with `test:ui`. Use a fresh `SELENIUM_EVIDENCE_DIR` to preserve old screenshots when repeating a run. TC-001 passed by user confirmation. TC-005 has a partial login observation, and its formal status is Not Run. The other 34 manual cases remain Not Run. The fresh Selenium rerun passed all five existing workflows. Five additional catalogue cases passed with browser evidence. [Automated catalogue results](EC4206_Automated_Execution_Results.md)
 
 ## 4. GitHub Actions and continuous delivery
 
 The [EC4206 CI workflow](../../.github/workflows/ec4206-ci.yml) runs on pushes and pull requests. It uses an Ubuntu 24.04 GitHub-hosted runner, Node 24, and a dedicated MongoDB 8.0 service container with a ping health check. The job's connection string addresses the service on loopback and needs no repository secrets. It uses read-only repository permissions.
 
-The workflow checks out the code, installs locked frontend and backend dependencies with `npm ci`, runs lint and the TypeScript/Vite build, executes backend tests and Cucumber, then launches Selenium using the hosted runner's Chrome. Bash runs each piped command with failure propagation. An always-run upload preserves evidence collected before any failure, including Selenium screenshots when a browser session was available. A successful job publishes the verified frontend build as a downloadable artifact. This is a continuous-delivery artifact for review. No automatic environment deployment is configured.
+The workflow checks out the code, installs locked frontend and backend dependencies with lifecycle scripts disabled, runs lint and the TypeScript/Vite build, executes backend tests and Cucumber, then launches Selenium using the hosted runner's Chrome. Bash runs each piped command with failure propagation. An always-run upload preserves evidence collected before any failure, including Selenium screenshots when a browser session was available. A successful job publishes the verified frontend build as a downloadable artifact. This is a continuous-delivery artifact for review. No automatic environment deployment is configured.
 
-**GitHub-hosted status** — The workflow was prepared and checked locally. There is no hosted run result for this change. Local checks do not verify hosted runner browser provisioning, the MongoDB service container or artifact publication.
+**GitHub-hosted status** — The archived Actions API response records successful verify and sonarqube jobs at commit 1bd7b426, plus the backend-lcov, ec4206-ci-evidence and smart-campus-frontend artifacts. The analysis gate passed for that revision. The fresh local rerun is reported separately. [Actions run](https://github.com/raveeshajayamaha/smart-campus-assistant_sqa/actions/runs/45426972596) · [Saved hosted record](../evidence/section-3.9/hosted-analysis-1bd7b42.json)
 
 ## 5. Capturing GitHub Actions evidence
 
-1. Review and commit the workflow, backend package files, Selenium suite and any earlier uncommitted TDD/BDD files required by the pipeline. Confirm that local environment files and credentials are excluded.
-2. Push that commit to the authorised GitHub repository, or open a pull request from the pushed branch. If the repository restricts workflows, ask the repository maintainer to enable or approve the run.
-3. Open **Actions → EC4206 CI** in the repository and wait for the run for that commit to finish. Check the verification job and each test step. If a step fails, inspect its log and the evidence artifact before rerunning.
-4. After a successful run, capture the run summary with the green conclusion, commit or branch, completed verification job and artifact list. Download **ec4206-ci-evidence** for the captured Selenium PNGs and test logs, and **smart-campus-frontend** for the verified build.
-
+1. Open **Actions → EC4206 CI** and select the relevant completed run. Confirm the intended commit, both jobs and the artifact list.
+2. Capture the completed run summary and retain the verification evidence, built frontend and backend LCOV artifacts for that run.
+3. If a fresh run is required, use an authorized account to rerun the intended fixed revision and verify the associated SonarQube analysis and gate.
 The [traceability matrix](../test-plans/EC4206_Test_Plan.md) links AUTO-01 through AUTO-05 to their existing requirements and preserves all earlier IDs.

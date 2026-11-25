@@ -1,0 +1,11 @@
+2026-11-25T06:14:00.922Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067ca899b54093f6036566","name":"Test Student","email":"tc-025-a7b62077@example.test","role":"student","createdAt":"2026-11-25T06:14:00.920Z","updatedAt":"2026-11-25T06:14:00.920Z"}}
+2026-11-25T06:14:00.984Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067ca899b54093f6036566","name":"Test Student","email":"tc-025-a7b62077@example.test","role":"admin","createdAt":"2026-11-25T06:14:00.920Z","updatedAt":"2026-11-25T06:14:00.922Z"}}
+2026-11-25T06:14:00.984Z Schedule 09:00 to 09:00
+2026-11-25T06:14:00.989Z POST schedules HTTP 400 {"success":false,"message":"Invalid input. Check required fields, dates, times and links."}
+2026-11-25T06:14:00.989Z Schedule 09:00 to 08:59
+2026-11-25T06:14:00.993Z POST schedules HTTP 400 {"success":false,"message":"Invalid input. Check required fields, dates, times and links."}
+2026-11-25T06:14:00.993Z Schedule 09:00 to 09:01
+2026-11-25T06:14:00.997Z POST schedules HTTP 201 {"success":true,"schedule":{"subject":"Algorithms","date":"2026-11-26T00:00:00.000Z","startTime":"09:00","endTime":"09:01","location":"Room A","type":"Lecture","_id":"6b067ca899b54093f603656a","createdAt":"2026-11-25T06:14:00.996Z","updatedAt":"2026-11-25T06:14:00.996Z","__v":0}}
+2026-11-25T06:14:00.997Z Schedule 24:00 to 10:00
+2026-11-25T06:14:01.000Z POST schedules HTTP 400 {"success":false,"message":"Invalid input. Check required fields, dates, times and links."}
+2026-11-25T06:14:01.000Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

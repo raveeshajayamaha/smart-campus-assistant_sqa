@@ -1,0 +1,801 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1795502056135,23,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,2,2,http://127.0.0.1:51937/api/events,21,0,14
+1795502056317,8,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,3,3,http://127.0.0.1:51937/api/events,7,0,2
+1795502056411,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,3,3,http://127.0.0.1:51937/api/test,1,0,0
+1795502056564,6,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,4,4,http://127.0.0.1:51937/api/events,6,0,2
+1795502056576,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,4,4,http://127.0.0.1:51937/api/test,1,0,0
+1795502056664,3,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,4,4,http://127.0.0.1:51937/api/events,3,0,0
+1795502056814,9,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,5,5,http://127.0.0.1:51937/api/events,9,0,3
+1795502056821,2,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,5,5,http://127.0.0.1:51937/api/test,2,0,0
+1795502056828,4,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,5,5,http://127.0.0.1:51937/api/events,4,0,0
+1795502056918,2,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,5,5,http://127.0.0.1:51937/api/test,2,0,0
+1795502057074,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,6,6,http://127.0.0.1:51937/api/test,1,0,0
+1795502057074,5,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,6,6,http://127.0.0.1:51937/api/events,5,0,0
+1795502057079,5,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,6,6,http://127.0.0.1:51937/api/events,5,0,1
+1795502057083,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,6,6,http://127.0.0.1:51937/api/test,1,0,0
+1795502057171,7,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,6,6,http://127.0.0.1:51937/api/events,7,0,0
+1795502057314,10,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,7,7,http://127.0.0.1:51937/api/events,10,0,3
+1795502057326,3,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,7,7,http://127.0.0.1:51937/api/events,3,0,0
+1795502057331,0,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,7,7,http://127.0.0.1:51937/api/test,0,0,0
+1795502057337,1,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,7,7,http://127.0.0.1:51937/api/test,1,0,0
+1795502057337,6,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,7,7,http://127.0.0.1:51937/api/events,6,0,0
+1795502057429,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,7,7,http://127.0.0.1:51937/api/test,1,0,0
+1795502057564,5,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,8,8,http://127.0.0.1:51937/api/events,5,0,1
+1795502057575,1,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,8,8,http://127.0.0.1:51937/api/test,1,0,0
+1795502057580,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,8,8,http://127.0.0.1:51937/api/test,1,0,0
+1795502057582,3,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,8,8,http://127.0.0.1:51937/api/events,3,0,0
+1795502057589,4,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,8,8,http://127.0.0.1:51937/api/events,4,0,0
+1795502057595,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,8,8,http://127.0.0.1:51937/api/test,1,0,0
+1795502057683,7,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,8,8,http://127.0.0.1:51937/api/events,6,0,0
+1795502057813,5,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,9,9,http://127.0.0.1:51937/api/events,5,0,1
+1795502057820,2,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,9,9,http://127.0.0.1:51937/api/test,2,0,0
+1795502057829,4,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,9,9,http://127.0.0.1:51937/api/events,4,0,0
+1795502057832,5,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,9,9,http://127.0.0.1:51937/api/events,4,0,0
+1795502057836,1,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,9,9,http://127.0.0.1:51937/api/test,1,0,0
+1795502057844,1,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,9,9,http://127.0.0.1:51937/api/test,1,0,0
+1795502057848,4,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,9,9,http://127.0.0.1:51937/api/events,4,0,0
+1795502057941,2,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,9,9,http://127.0.0.1:51937/api/test,2,0,0
+1795502058063,9,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,10,10,http://127.0.0.1:51937/api/events,9,0,1
+1795502058077,1,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,10,10,http://127.0.0.1:51937/api/test,1,0,0
+1795502058077,4,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,10,10,http://127.0.0.1:51937/api/events,4,0,0
+1795502058085,1,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,10,10,http://127.0.0.1:51937/api/test,1,0,0
+1795502058087,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,10,10,http://127.0.0.1:51937/api/test,1,0,0
+1795502058089,4,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,10,10,http://127.0.0.1:51937/api/events,4,0,0
+1795502058096,4,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,10,10,http://127.0.0.1:51937/api/events,4,0,0
+1795502058103,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,10,10,http://127.0.0.1:51937/api/test,1,0,0
+1795502058194,7,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,10,10,http://127.0.0.1:51937/api/events,7,0,0
+1795502058315,8,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,11,11,http://127.0.0.1:51937/api/events,8,0,2
+1795502058324,1,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,11,11,http://127.0.0.1:51937/api/test,1,0,0
+1795502058329,4,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,11,11,http://127.0.0.1:51937/api/events,4,0,0
+1795502058331,2,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,11,11,http://127.0.0.1:51937/api/test,2,0,0
+1795502058336,4,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,11,11,http://127.0.0.1:51937/api/events,4,0,0
+1795502058338,5,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,11,11,http://127.0.0.1:51937/api/events,5,0,0
+1795502058344,1,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,11,11,http://127.0.0.1:51937/api/test,1,0,0
+1795502058350,1,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,11,11,http://127.0.0.1:51937/api/test,1,0,0
+1795502058354,4,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,11,11,http://127.0.0.1:51937/api/events,4,0,0
+1795502058453,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,11,11,http://127.0.0.1:51937/api/test,1,0,0
+1795502058565,5,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,5,0,1
+1795502058573,1,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,12,12,http://127.0.0.1:51937/api/test,1,0,0
+1795502058575,5,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,5,0,0
+1795502058583,2,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,12,12,http://127.0.0.1:51937/api/test,2,0,0
+1795502058583,6,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,6,0,0
+1795502058592,1,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,12,12,http://127.0.0.1:51937/api/test,1,0,0
+1795502058595,2,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,12,12,http://127.0.0.1:51937/api/test,2,0,0
+1795502058595,5,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,5,0,0
+1795502058602,6,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,6,0,0
+1795502058610,3,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,12,12,http://127.0.0.1:51937/api/test,3,0,0
+1795502058706,7,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,7,0,0
+1795502058823,1,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,13,13,http://127.0.0.1:51937/api/test,1,0,0
+1795502058816,8,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,13,13,http://127.0.0.1:51937/api/events,8,0,2
+1795502058825,5,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,13,13,http://127.0.0.1:51937/api/events,5,0,0
+1795502058831,1,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,13,13,http://127.0.0.1:51937/api/test,1,0,0
+1795502058836,4,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,13,13,http://127.0.0.1:51937/api/events,4,0,0
+1795502058842,0,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,13,13,http://127.0.0.1:51937/api/test,0,0,0
+1795502058844,3,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,13,13,http://127.0.0.1:51937/api/events,3,0,0
+1795502058851,3,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,13,13,http://127.0.0.1:51937/api/test,3,0,0
+1795502058849,5,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,13,13,http://127.0.0.1:51937/api/events,5,0,0
+1795502058861,0,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,13,13,http://127.0.0.1:51937/api/test,0,0,0
+1795502058865,4,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,13,13,http://127.0.0.1:51937/api/events,4,0,0
+1795502058964,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,13,13,http://127.0.0.1:51937/api/test,1,0,0
+1795502059066,9,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,14,14,http://127.0.0.1:51937/api/events,9,0,2
+1795502059075,3,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,14,14,http://127.0.0.1:51937/api/test,3,0,0
+1795502059075,8,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,14,14,http://127.0.0.1:51937/api/events,8,0,0
+1795502059081,2,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,14,14,http://127.0.0.1:51937/api/test,2,0,0
+1795502059083,5,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,14,14,http://127.0.0.1:51937/api/events,5,0,0
+1795502059090,1,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,14,14,http://127.0.0.1:51937/api/test,1,0,0
+1795502059093,5,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,14,14,http://127.0.0.1:51937/api/events,4,0,0
+1795502059097,1,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,14,14,http://127.0.0.1:51937/api/test,1,0,0
+1795502059106,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,14,14,http://127.0.0.1:51937/api/test,1,0,0
+1795502059106,6,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,14,14,http://127.0.0.1:51937/api/events,6,0,0
+1795502059112,8,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,14,14,http://127.0.0.1:51937/api/events,8,0,0
+1795502059121,2,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,14,14,http://127.0.0.1:51937/api/test,1,0,0
+1795502059217,4,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,14,14,http://127.0.0.1:51937/api/events,4,0,0
+1795502059315,5,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,5,0,2
+1795502059327,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,1,0,0
+1795502059329,3,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,3,0,0
+1795502059334,2,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,2,0,0
+1795502059334,5,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,5,0,0
+1795502059339,1,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,1,0,0
+1795502059342,3,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,3,0,0
+1795502059349,1,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,1,0,0
+1795502059349,6,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,6,0,0
+1795502059359,3,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,3,0,0
+1795502059364,0,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,0,0,0
+1795502059372,1,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,1,0,0
+1795502059374,3,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,3,0,0
+1795502059472,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,1,0,0
+1795502059565,7,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,7,0,2
+1795502059571,1,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,1,0,0
+1795502059580,4,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,4,0,0
+1795502059584,0,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,0,0,0
+1795502059588,4,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,4,0,0
+1795502059591,1,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,1,0,0
+1795502059592,7,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,7,0,0
+1795502059597,3,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,3,0,0
+1795502059602,4,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,4,0,0
+1795502059606,2,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,2,0,0
+1795502059614,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,1,0,0
+1795502059615,4,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,4,0,0
+1795502059623,4,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,4,0,0
+1795502059627,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,1,0,0
+1795502059725,5,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,5,0,0
+1795502059813,6,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,6,0,2
+1795502059823,0,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,0,0,0
+1795502059823,4,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,3,0,0
+1795502059835,2,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,2,0,0
+1795502059835,4,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,4,0,0
+1795502059842,1,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,1,0,0
+1795502059842,4,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,4,0,0
+1795502059850,1,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,1,0,0
+1795502059853,3,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,3,0,0
+1795502059858,1,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,1,0,0
+1795502059861,4,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,4,0,0
+1795502059865,4,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,4,0,0
+1795502059870,0,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,0,0,0
+1795502059877,1,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,1,0,0
+1795502059878,4,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,4,0,0
+1795502059984,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,1,0,0
+1795502060074,1,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,1,0,0
+1795502060074,4,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,4,0,1
+1795502060089,1,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,1,0,0
+1795502060088,4,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,3,0,0
+1795502060090,2,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,2,0,0
+1795502060089,4,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,4,0,0
+1795502060093,4,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,4,0,0
+1795502060099,0,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,0,0,0
+1795502060105,4,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,4,0,0
+1795502060108,1,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,1,0,0
+1795502060111,3,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,3,0,0
+1795502060116,0,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,0,0,0
+1795502060122,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,1,0,0
+1795502060122,4,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,4,0,0
+1795502060133,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,1,0,0
+1795502060131,9,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,9,0,0
+1795502060236,4,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,4,0,0
+1795502060313,4,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,4,0,1
+1795502060325,4,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,4,0,0
+1795502060329,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,1,0,0
+1795502060342,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,1,0,0
+1795502060341,6,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,6,0,0
+1795502060342,6,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,6,0,0
+1795502060345,3,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,3,0,0
+1795502060348,1,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,1,0,0
+1795502060350,3,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,3,0,0
+1795502060360,1,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,1,0,0
+1795502060360,4,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,4,0,0
+1795502060365,1,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,1,0,0
+1795502060367,4,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,4,0,0
+1795502060373,5,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,5,0,0
+1795502060376,3,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,3,0,0
+1795502060385,4,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,4,0,0
+1795502060391,1,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,1,0,0
+1795502060492,2,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,2,0,0
+1795502060562,7,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,1
+1795502060569,1,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502060581,2,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502060581,7,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502060595,7,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502060598,4,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,4,0,0
+1795502060599,3,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502060599,9,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502060604,4,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,4,0,0
+1795502060601,9,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502060612,3,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,3,0,0
+1795502060615,0,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,0,0,0
+1795502060617,3,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,3,0,0
+1795502060622,0,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,0,0,0
+1795502060629,0,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,0,0,0
+1795502060631,5,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502060640,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502060643,5,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502060745,7,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502060822,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502060822,7,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502060823,11,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,11,0,3
+1795502060837,5,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502060853,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502060853,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502060853,5,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502060855,5,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502060869,2,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502060869,2,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502060869,3,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502060869,5,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502060869,7,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502060880,3,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,3,0,0
+1795502060885,1,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502060885,3,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,3,0,0
+1795502060901,2,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502060901,2,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502060901,4,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502061010,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502061087,1,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502061087,1,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502061087,4,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502061103,1,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502061105,7,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502061105,10,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,10,0,0
+1795502061119,16,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,16,0,0
+1795502061119,16,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,16,0,0
+1795502061135,3,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502061135,3,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502061135,4,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,4,0,0
+1795502061135,6,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502061135,9,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,8,0,0
+1795502061135,11,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,11,0,0
+1795502061150,2,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502061150,4,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502061166,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502061166,5,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502061166,7,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502061275,4,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502061352,2,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502061352,4,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502061352,5,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502061367,2,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502061367,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502061367,7,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502061398,2,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502061398,2,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502061398,6,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,6,0,0
+1795502061398,10,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,10,0,0
+1795502061398,14,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,14,0,0
+1795502061398,18,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,18,0,0
+1795502061398,21,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,21,0,0
+1795502061398,23,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,23,0,0
+1795502061414,7,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,7,0,0
+1795502061414,10,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,10,0,0
+1795502061429,1,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502061429,1,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502061429,6,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502061538,2,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502061617,1,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502061617,3,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502061617,9,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502061632,4,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,4,0,0
+1795502061632,12,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,12,0,0
+1795502061632,17,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,17,0,0
+1795502061664,3,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502061664,3,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502061664,7,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502061664,9,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502061664,12,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,12,0,0
+1795502061680,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502061680,2,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502061680,2,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502061680,3,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502061680,6,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502061695,3,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502061695,5,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502061695,7,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502061805,6,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502061883,2,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502061883,6,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502061883,9,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502061898,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502061898,7,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502061914,2,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502061930,2,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502061930,2,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502061930,3,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502061930,7,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502061930,9,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502061945,5,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,5,0,0
+1795502061945,11,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,10,0,0
+1795502061945,15,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,15,0,0
+1795502061945,17,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,17,0,0
+1795502061961,4,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,4,0,0
+1795502061945,20,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,20,0,0
+1795502061961,5,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,5,0,0
+1795502061961,11,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,11,0,0
+1795502062070,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062147,3,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502062147,3,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502062148,5,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502062163,2,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502062163,7,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502062179,7,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502062194,2,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502062194,2,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502062194,7,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502062194,10,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,10,0,0
+1795502062194,12,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,12,0,0
+1795502062209,1,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062209,4,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502062225,3,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502062225,4,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,4,0,0
+1795502062225,4,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,4,0,0
+1795502062225,4,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,4,0,0
+1795502062225,10,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,10,0,0
+1795502062225,15,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,15,0,0
+1795502062336,3,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,3,0,0
+1795502062413,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062413,5,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502062413,6,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502062429,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062429,5,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502062445,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062460,2,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502062460,2,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502062460,3,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502062460,5,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502062460,7,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502062460,9,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502062476,2,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502062491,2,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502062491,5,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,5,0,0
+1795502062491,10,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502062491,14,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,14,0,0
+1795502062492,17,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,17,0,0
+1795502062492,20,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,20,0,0
+1795502062602,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062679,1,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062679,2,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502062679,6,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502062695,0,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,0,0,0
+1795502062695,3,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,3,0,0
+1795502062710,3,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,3,0,0
+1795502062726,1,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062726,2,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502062726,3,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502062726,4,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502062726,6,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502062726,9,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,8,0,0
+1795502062741,5,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502062757,1,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062757,2,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502062757,5,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502062757,6,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502062773,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062773,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062868,4,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502062945,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062945,4,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502062945,7,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502062961,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062961,4,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502062976,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502062992,0,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,0,0,0
+1795502062992,1,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,0,0,0
+1795502062992,2,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502062992,4,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502062992,6,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502062992,8,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,8,0,0
+1795502063007,1,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063022,1,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063022,2,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502063022,6,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502063022,7,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502063037,4,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502063037,5,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502063132,2,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502063209,2,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502063209,2,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502063209,8,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,8,0,0
+1795502063224,2,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502063224,7,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502063240,6,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502063255,1,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063255,3,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502063255,3,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502063255,5,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502063255,7,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502063256,8,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,8,0,0
+1795502063271,5,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502063288,1,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063288,1,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063288,6,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502063288,8,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,8,0,0
+1795502063303,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063303,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063397,9,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502063475,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063475,4,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502063475,6,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502063490,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063490,5,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502063506,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063522,1,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063522,1,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063522,3,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502063522,7,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502063522,9,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502063523,14,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,14,0,0
+1795502063538,1,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063553,1,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063553,2,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502063553,7,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502063553,11,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,11,0,0
+1795502063569,4,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502063569,5,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502063663,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063741,1,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063741,1,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063741,4,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502063756,1,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063756,5,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502063771,6,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502063787,2,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502063787,2,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502063787,2,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502063787,4,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502063787,6,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502063787,7,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502063803,4,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502063818,1,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063818,1,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063818,4,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502063818,5,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502063834,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063834,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502063927,7,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502064005,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064005,6,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502064005,9,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502064020,2,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502064020,5,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502064036,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064051,1,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064051,2,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502064051,2,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502064051,6,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502064051,9,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502064051,11,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,11,0,0
+1795502064067,1,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064083,1,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064083,1,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064083,6,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502064083,8,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,8,0,0
+1795502064098,7,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502064098,9,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502064192,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064270,1,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064270,2,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502064270,5,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502064286,1,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064286,3,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,3,0,0
+1795502064302,5,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502064317,2,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502064317,2,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502064317,2,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502064317,4,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502064317,5,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502064317,6,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502064333,3,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,3,0,0
+1795502064349,1,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064349,1,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064349,5,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502064349,7,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502064364,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064364,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064445,4,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502064522,3,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,3,0,0
+1795502064537,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064537,3,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,3,0,0
+1795502064537,5,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502064553,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064569,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064584,1,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064584,1,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064585,1,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064585,4,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502064585,6,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502064585,8,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502064600,4,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,4,0,0
+1795502064615,3,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502064615,3,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502064615,8,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,8,0,0
+1795502064615,10,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,10,0,0
+1795502064615,12,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,12,0,0
+1795502064615,14,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,14,0,0
+1795502064710,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064787,1,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064803,1,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064803,1,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064803,4,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502064818,6,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502064833,5,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502064849,2,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064849,2,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502064850,2,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502064849,10,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,10,0,0
+1795502064849,15,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,15,0,0
+1795502064849,22,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,21,0,0
+1795502064864,11,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,11,0,0
+1795502064879,1,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502064879,2,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502064879,2,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502064879,2,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502064879,5,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502064879,6,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502064973,6,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502065051,7,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502065066,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065066,5,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502065066,6,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502065082,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065098,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065114,2,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065114,4,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502065114,6,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502065114,9,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502065130,1,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065129,3,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502065129,3,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502065145,3,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502065145,4,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,4,0,0
+1795502065145,7,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502065145,9,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502065145,11,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,11,0,0
+1795502065145,13,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,13,0,0
+1795502065239,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065317,0,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,0,0,0
+1795502065333,1,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065333,1,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065333,5,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502065347,5,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502065363,4,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502065379,1,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065379,1,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065379,1,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065379,4,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502065393,5,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502065393,6,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502065393,9,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502065409,2,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502065410,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065410,1,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065410,1,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065409,5,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502065409,6,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502065504,7,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502065582,4,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502065597,3,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502065597,4,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502065597,6,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502065613,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065628,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065643,2,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502065643,6,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502065643,8,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,8,0,0
+1795502065643,9,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502065658,1,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065658,1,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065658,2,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502065674,2,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502065674,3,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,3,0,0
+1795502065674,6,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502065674,10,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,10,0,0
+1795502065674,14,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,14,0,0
+1795502065674,16,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,16,0,0
+1795502065769,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065846,1,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065862,1,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065862,2,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502065862,4,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502065878,6,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502065893,5,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502065909,1,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065909,1,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065909,1,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065909,4,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502065924,5,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502065924,8,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,8,0,0
+1795502065924,11,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,11,0,0
+1795502065940,1,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065940,1,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065940,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065941,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502065940,4,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502065940,6,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502066034,6,PERF-01 GET campus events,200,OK,Controlled users 1-1,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502066111,6,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,5,0,0
+1795502066127,2,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502066127,7,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502066127,10,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,10,0,0
+1795502066143,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502066158,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502066174,2,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502066174,10,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,10,0,0
+1795502066174,16,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,16,0,0
+1795502066174,22,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,21,0,0
+1795502066191,5,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,5,0,0
+1795502066191,5,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,5,0,0
+1795502066191,6,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,6,0,0
+1795502066205,2,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502066205,2,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,2,0,0
+1795502066205,5,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,4,0,0
+1795502066205,6,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,6,0,0
+1795502066205,7,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,7,0,0
+1795502066205,9,PERF-01 GET campus events,200,OK,Controlled users 1-2,text,true,,30621,130,20,20,http://127.0.0.1:51937/api/events,9,0,0
+1795502066299,1,PERF-02 GET API health control,200,OK,Controlled users 1-1,text,true,,345,128,20,20,http://127.0.0.1:51937/api/test,1,0,0
+1795502066377,1,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,1,0,0
+1795502066393,2,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,2,0,0
+1795502066393,2,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,2,0,0
+1795502066393,9,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,9,0,0
+1795502066395,9,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,9,0,0
+1795502066411,4,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,4,0,0
+1795502066440,1,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,1,0,0
+1795502066442,1,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,1,0,0
+1795502066440,4,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,4,0,0
+1795502066456,2,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,2,0,0
+1795502066456,6,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,6,0,0
+1795502066456,9,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,9,0,0
+1795502066456,11,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,11,0,0
+1795502066458,10,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,19,19,http://127.0.0.1:51937/api/events,10,0,0
+1795502066471,1,PERF-02 GET API health control,200,OK,Controlled users 1-2,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,1,0,0
+1795502066471,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,19,19,http://127.0.0.1:51937/api/test,1,0,0
+1795502066471,2,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,2,0,0
+1795502066471,2,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,2,0,0
+1795502066471,5,PERF-01 GET campus events,200,OK,Controlled users 1-3,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,5,0,0
+1795502066643,5,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,5,0,0
+1795502066647,4,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,4,0,0
+1795502066647,6,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,6,0,0
+1795502066659,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,1,0,0
+1795502066659,2,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,2,0,0
+1795502066674,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,1,0,0
+1795502066693,5,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,5,0,0
+1795502066704,1,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,1,0,0
+1795502066704,5,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,5,0,0
+1795502066708,4,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,18,18,http://127.0.0.1:51937/api/events,4,0,0
+1795502066720,1,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,1,0,0
+1795502066720,1,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,1,0,0
+1795502066720,1,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,1,0,0
+1795502066720,2,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,2,0,0
+1795502066736,2,PERF-02 GET API health control,200,OK,Controlled users 1-3,text,true,,345,128,18,18,http://127.0.0.1:51937/api/test,2,0,0
+1795502066736,7,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,7,0,0
+1795502066736,10,PERF-01 GET campus events,200,OK,Controlled users 1-4,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,10,0,0
+1795502066736,14,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,14,0,0
+1795502066908,2,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,2,0,0
+1795502066908,2,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,2,0,0
+1795502066908,2,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,2,0,0
+1795502066924,5,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,5,0,0
+1795502066924,6,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,6,0,0
+1795502066939,3,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,3,0,0
+1795502066955,1,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,1,0,0
+1795502066970,1,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,1,0,0
+1795502066970,1,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,1,0,0
+1795502066970,4,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,4,0,0
+1795502066986,5,PERF-01 GET campus events,200,OK,Controlled users 1-5,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,5,0,0
+1795502066986,7,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,7,0,0
+1795502066986,9,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,9,0,0
+1795502066986,11,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,17,17,http://127.0.0.1:51937/api/events,11,0,0
+1795502067002,1,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,1,0,0
+1795502067002,1,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,1,0,0
+1795502067002,1,PERF-02 GET API health control,200,OK,Controlled users 1-4,text,true,,345,128,17,17,http://127.0.0.1:51937/api/test,1,0,0
+1795502067174,3,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,3,0,0
+1795502067174,5,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,5,0,0
+1795502067174,6,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,6,0,0
+1795502067190,0,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,0,0,0
+1795502067190,0,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,0,0,0
+1795502067206,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,1,0,0
+1795502067222,3,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,3,0,0
+1795502067222,5,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,5,0,0
+1795502067223,7,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,16,16,http://127.0.0.1:51937/api/events,7,0,0
+1795502067237,0,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,0,0,0
+1795502067252,1,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,1,0,0
+1795502067253,0,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,0,0,0
+1795502067253,1,PERF-02 GET API health control,200,OK,Controlled users 1-5,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,0,0,0
+1795502067253,1,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,16,16,http://127.0.0.1:51937/api/test,1,0,0
+1795502067268,4,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,4,0,0
+1795502067268,5,PERF-01 GET campus events,200,OK,Controlled users 1-6,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,5,0,0
+1795502067440,0,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,0,0,0
+1795502067440,1,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,1,0,0
+1795502067440,1,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,1,0,0
+1795502067456,6,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,6,0,0
+1795502067456,10,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,10,0,0
+1795502067471,6,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,6,0,0
+1795502067487,1,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,1,0,0
+1795502067487,2,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,2,0,0
+1795502067487,2,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,2,0,0
+1795502067488,7,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,6,0,0
+1795502067517,8,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,8,0,0
+1795502067517,12,PERF-01 GET campus events,200,OK,Controlled users 1-7,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,12,0,0
+1795502067517,17,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,15,15,http://127.0.0.1:51937/api/events,16,0,0
+1795502067533,1,PERF-02 GET API health control,200,OK,Controlled users 1-6,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,1,0,0
+1795502067533,2,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,15,15,http://127.0.0.1:51937/api/test,2,0,0
+1795502067702,3,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,14,14,http://127.0.0.1:51937/api/events,3,0,0
+1795502067702,5,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,14,14,http://127.0.0.1:51937/api/events,5,0,0
+1795502067702,6,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,14,14,http://127.0.0.1:51937/api/events,6,0,0
+1795502067717,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,14,14,http://127.0.0.1:51937/api/test,1,0,0
+1795502067717,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,14,14,http://127.0.0.1:51937/api/test,1,0,0
+1795502067733,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,14,14,http://127.0.0.1:51937/api/test,1,0,0
+1795502067749,1,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,14,14,http://127.0.0.1:51937/api/test,1,0,0
+1795502067749,3,PERF-01 GET campus events,200,OK,Controlled users 1-8,text,true,,30621,130,14,14,http://127.0.0.1:51937/api/events,3,0,0
+1795502067749,5,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,14,14,http://127.0.0.1:51937/api/events,5,0,0
+1795502067749,6,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,14,14,http://127.0.0.1:51937/api/events,6,0,0
+1795502067780,1,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,14,14,http://127.0.0.1:51937/api/test,1,0,0
+1795502067780,1,PERF-02 GET API health control,200,OK,Controlled users 1-7,text,true,,345,128,14,14,http://127.0.0.1:51937/api/test,1,0,0
+1795502067796,2,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,13,13,http://127.0.0.1:51937/api/test,2,0,0
+1795502067796,6,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,13,13,http://127.0.0.1:51937/api/events,6,0,0
+1795502067968,1,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,13,13,http://127.0.0.1:51937/api/test,1,0,0
+1795502067968,1,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,13,13,http://127.0.0.1:51937/api/test,1,0,0
+1795502067968,1,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,13,13,http://127.0.0.1:51937/api/test,1,0,0
+1795502067983,4,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,13,13,http://127.0.0.1:51937/api/events,4,0,0
+1795502067983,6,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,13,13,http://127.0.0.1:51937/api/events,6,0,0
+1795502067999,6,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,13,13,http://127.0.0.1:51937/api/events,6,0,0
+1795502068014,2,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,13,13,http://127.0.0.1:51937/api/test,1,0,0
+1795502068014,2,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,13,13,http://127.0.0.1:51937/api/test,2,0,0
+1795502068014,3,PERF-02 GET API health control,200,OK,Controlled users 1-8,text,true,,345,128,13,13,http://127.0.0.1:51937/api/test,3,0,0
+1795502068014,9,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,9,0,0
+1795502068045,5,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,5,0,0
+1795502068061,3,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,12,12,http://127.0.0.1:51937/api/test,3,0,0
+1795502068061,7,PERF-01 GET campus events,200,OK,Controlled users 1-9,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,7,0,0
+1795502068232,3,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,3,0,0
+1795502068232,5,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,5,0,0
+1795502068232,6,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,6,0,0
+1795502068247,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,12,12,http://127.0.0.1:51937/api/test,1,0,0
+1795502068247,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,12,12,http://127.0.0.1:51937/api/test,1,0,0
+1795502068263,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,12,12,http://127.0.0.1:51937/api/test,1,0,0
+1795502068278,2,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,12,12,http://127.0.0.1:51937/api/test,2,0,0
+1795502068278,5,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,5,0,0
+1795502068278,6,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,12,12,http://127.0.0.1:51937/api/events,6,0,0
+1795502068310,1,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,12,12,http://127.0.0.1:51937/api/test,1,0,0
+1795502068326,2,PERF-02 GET API health control,200,OK,Controlled users 1-9,text,true,,345,128,12,12,http://127.0.0.1:51937/api/test,2,0,0
+1795502068326,5,PERF-01 GET campus events,200,OK,Controlled users 1-10,text,true,,30621,130,11,11,http://127.0.0.1:51937/api/events,5,0,0
+1795502068497,1,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,11,11,http://127.0.0.1:51937/api/test,1,0,0
+1795502068497,1,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,11,11,http://127.0.0.1:51937/api/test,1,0,0
+1795502068497,1,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,11,11,http://127.0.0.1:51937/api/test,1,0,0
+1795502068513,6,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,11,11,http://127.0.0.1:51937/api/events,6,0,0
+1795502068513,9,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,11,11,http://127.0.0.1:51937/api/events,9,0,0
+1795502068528,6,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,11,11,http://127.0.0.1:51937/api/events,6,0,0
+1795502068543,2,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,11,11,http://127.0.0.1:51937/api/test,2,0,0
+1795502068543,2,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,11,11,http://127.0.0.1:51937/api/test,2,0,0
+1795502068543,6,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,11,11,http://127.0.0.1:51937/api/events,6,0,0
+1795502068574,4,PERF-01 GET campus events,200,OK,Controlled users 1-11,text,true,,30621,130,11,11,http://127.0.0.1:51937/api/events,4,0,0
+1795502068590,1,PERF-02 GET API health control,200,OK,Controlled users 1-10,text,true,,345,128,11,11,http://127.0.0.1:51937/api/test,1,0,0
+1795502068761,6,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,10,10,http://127.0.0.1:51937/api/events,6,0,0
+1795502068761,7,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,10,10,http://127.0.0.1:51937/api/events,7,0,0
+1795502068761,8,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,10,10,http://127.0.0.1:51937/api/events,8,0,0
+1795502068777,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,10,10,http://127.0.0.1:51937/api/test,1,0,0
+1795502068777,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,10,10,http://127.0.0.1:51937/api/test,1,0,0
+1795502068793,1,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,10,10,http://127.0.0.1:51937/api/test,1,0,0
+1795502068809,1,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,10,10,http://127.0.0.1:51937/api/test,1,0,0
+1795502068809,6,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,10,10,http://127.0.0.1:51937/api/events,6,0,0
+1795502068809,7,PERF-01 GET campus events,200,OK,Controlled users 1-12,text,true,,30621,130,10,10,http://127.0.0.1:51937/api/events,7,0,0
+1795502068840,1,PERF-02 GET API health control,200,OK,Controlled users 1-11,text,true,,345,128,10,10,http://127.0.0.1:51937/api/test,1,0,0
+1795502069026,2,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,9,9,http://127.0.0.1:51937/api/test,2,0,0
+1795502069026,2,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,9,9,http://127.0.0.1:51937/api/test,2,0,0
+1795502069026,2,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,9,9,http://127.0.0.1:51937/api/test,2,0,0
+1795502069042,5,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,9,9,http://127.0.0.1:51937/api/events,5,0,0
+1795502069042,7,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,9,9,http://127.0.0.1:51937/api/events,7,0,0
+1795502069058,3,PERF-01 GET campus events,200,OK,Controlled users 1-13,text,true,,30621,130,9,9,http://127.0.0.1:51937/api/events,3,0,0
+1795502069074,1,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,9,9,http://127.0.0.1:51937/api/test,1,0,0
+1795502069074,1,PERF-02 GET API health control,200,OK,Controlled users 1-12,text,true,,345,128,9,9,http://127.0.0.1:51937/api/test,1,0,0
+1795502069074,7,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,8,8,http://127.0.0.1:51937/api/events,7,0,0
+1795502069293,5,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,8,8,http://127.0.0.1:51937/api/events,5,0,0
+1795502069293,7,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,8,8,http://127.0.0.1:51937/api/events,7,0,0
+1795502069293,8,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,8,8,http://127.0.0.1:51937/api/events,8,0,0
+1795502069308,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,8,8,http://127.0.0.1:51937/api/test,1,0,0
+1795502069308,2,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,8,8,http://127.0.0.1:51937/api/test,2,0,0
+1795502069324,0,PERF-02 GET API health control,200,OK,Controlled users 1-13,text,true,,345,128,8,8,http://127.0.0.1:51937/api/test,0,0,0
+1795502069340,1,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,7,7,http://127.0.0.1:51937/api/test,1,0,0
+1795502069340,4,PERF-01 GET campus events,200,OK,Controlled users 1-14,text,true,,30621,130,7,7,http://127.0.0.1:51937/api/events,4,0,0
+1795502069559,1,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,7,7,http://127.0.0.1:51937/api/test,1,0,0
+1795502069559,1,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,7,7,http://127.0.0.1:51937/api/test,1,0,0
+1795502069559,1,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,7,7,http://127.0.0.1:51937/api/test,1,0,0
+1795502069574,7,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,7,7,http://127.0.0.1:51937/api/events,6,0,0
+1795502069574,9,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,7,7,http://127.0.0.1:51937/api/events,9,0,0
+1795502069605,1,PERF-02 GET API health control,200,OK,Controlled users 1-14,text,true,,345,128,7,7,http://127.0.0.1:51937/api/test,1,0,0
+1795502069605,7,PERF-01 GET campus events,200,OK,Controlled users 1-15,text,true,,30621,130,6,6,http://127.0.0.1:51937/api/events,7,0,0
+1795502069824,5,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,6,6,http://127.0.0.1:51937/api/events,5,0,0
+1795502069824,7,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,6,6,http://127.0.0.1:51937/api/events,7,0,0
+1795502069824,9,PERF-01 GET campus events,200,OK,Controlled users 1-16,text,true,,30621,130,6,6,http://127.0.0.1:51937/api/events,8,0,0
+1795502069839,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,6,6,http://127.0.0.1:51937/api/test,1,0,0
+1795502069839,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,6,6,http://127.0.0.1:51937/api/test,1,0,0
+1795502069870,2,PERF-02 GET API health control,200,OK,Controlled users 1-15,text,true,,345,128,6,6,http://127.0.0.1:51937/api/test,2,0,0
+1795502070089,1,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,5,5,http://127.0.0.1:51937/api/test,1,0,0
+1795502070089,2,PERF-02 GET API health control,200,OK,Controlled users 1-16,text,true,,345,128,5,5,http://127.0.0.1:51937/api/test,2,0,0
+1795502070089,2,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,5,5,http://127.0.0.1:51937/api/test,2,0,0
+1795502070105,4,PERF-01 GET campus events,200,OK,Controlled users 1-17,text,true,,30621,130,4,4,http://127.0.0.1:51937/api/events,4,0,0
+1795502070105,6,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,4,4,http://127.0.0.1:51937/api/events,6,0,0
+1795502070351,6,PERF-01 GET campus events,200,OK,Controlled users 1-18,text,true,,30621,130,4,4,http://127.0.0.1:51937/api/events,6,0,0
+1795502070351,8,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,4,4,http://127.0.0.1:51937/api/events,8,0,0
+1795502070366,1,PERF-02 GET API health control,200,OK,Controlled users 1-17,text,true,,345,128,4,4,http://127.0.0.1:51937/api/test,1,0,0
+1795502070366,1,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,4,4,http://127.0.0.1:51937/api/test,1,0,0
+1795502070615,1,PERF-02 GET API health control,200,OK,Controlled users 1-18,text,true,,345,128,3,3,http://127.0.0.1:51937/api/test,1,0,0
+1795502070615,1,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,3,3,http://127.0.0.1:51937/api/test,1,0,0
+1795502070630,4,PERF-01 GET campus events,200,OK,Controlled users 1-19,text,true,,30621,130,2,2,http://127.0.0.1:51937/api/events,4,0,0
+1795502070867,6,PERF-01 GET campus events,200,OK,Controlled users 1-20,text,true,,30621,130,2,2,http://127.0.0.1:51937/api/events,6,0,0
+1795502070898,0,PERF-02 GET API health control,200,OK,Controlled users 1-19,text,true,,345,128,2,2,http://127.0.0.1:51937/api/test,0,0,0
+1795502071133,0,PERF-02 GET API health control,200,OK,Controlled users 1-20,text,true,,345,128,1,1,http://127.0.0.1:51937/api/test,0,0,0

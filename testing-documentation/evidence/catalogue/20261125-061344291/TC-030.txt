@@ -1,0 +1,11 @@
+2026-11-25T06:14:26.238Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067cc299b54093f6036589","name":"Test Student","email":"tc-030-7e1100a7@example.test","role":"student","createdAt":"2026-11-25T06:14:26.236Z","updatedAt":"2026-11-25T06:14:26.236Z"}}
+2026-11-25T06:14:26.305Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067cc299b54093f6036589","name":"Test Student","email":"tc-030-7e1100a7@example.test","role":"student","createdAt":"2026-11-25T06:14:26.236Z","updatedAt":"2026-11-25T06:14:26.236Z"}}
+2026-11-25T06:14:26.305Z Assistant input length 0
+2026-11-25T06:14:26.310Z POST assistant/chat HTTP 400 {"success":false,"message":"Enter a message of 1 to 2000 characters"}
+2026-11-25T06:14:26.310Z Assistant input length 1
+2026-11-25T06:14:26.312Z POST assistant/chat HTTP 200 {"success":true,"reply":"I can look up campus events, announcements, class schedules, library resources and campus locations. Try asking: When is my next class? What are the library hours? Where is the computer lab?","sources":[],"mode":"campus-data"}
+2026-11-25T06:14:26.312Z Assistant input length 2000
+2026-11-25T06:14:26.316Z POST assistant/chat HTTP 200 {"success":true,"reply":"I can look up campus events, announcements, class schedules, library resources and campus locations. Try asking: When is my next class? What are the library hours? Where is the computer lab?","sources":[],"mode":"campus-data"}
+2026-11-25T06:14:26.316Z Assistant input length 2001
+2026-11-25T06:14:26.321Z POST assistant/chat HTTP 400 {"success":false,"message":"Enter a message of 1 to 2000 characters"}
+2026-11-25T06:14:26.321Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

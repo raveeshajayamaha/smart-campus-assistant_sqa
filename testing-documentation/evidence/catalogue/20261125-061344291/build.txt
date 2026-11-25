@@ -1,0 +1,14 @@
+
+> smart-campus-assistant@0.0.0 build
+> tsc -b && vite build --outDir coverage/catalogue-build-20261125-061344291
+
+vite v8.3.2 building client environment for production...
+transforming...
+✓ 1917 modules transformed.
+rendering chunks...
+computing gzip size...
+coverage/catalogue-build-20261125-061344291/index.html                   0.48 kB │ gzip:   0.31 kB
+coverage/catalogue-build-20261125-061344291/assets/index-DzkpG3Va.css   66.59 kB │ gzip:  12.98 kB
+coverage/catalogue-build-20261125-061344291/assets/index-B2mFPAN0.js   344.74 kB │ gzip: 103.02 kB
+
+✓ built in 1.10s

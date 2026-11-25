@@ -1,0 +1,6 @@
+2026-11-25T06:13:59.222Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067ca799b54093f6036544","name":"Test Student","email":"tc-018-209f3060@example.test","role":"student","createdAt":"2026-11-25T06:13:59.220Z","updatedAt":"2026-11-25T06:13:59.220Z"}}
+2026-11-25T06:13:59.303Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067ca799b54093f6036544","name":"Test Student","email":"tc-018-209f3060@example.test","role":"student","createdAt":"2026-11-25T06:13:59.220Z","updatedAt":"2026-11-25T06:13:59.220Z"}}
+2026-11-25T06:13:59.304Z New password UTF-8 byte count 74
+2026-11-25T06:13:59.338Z PUT auth/change-password HTTP 400 {"success":false,"message":"New password must be 6 to 72 characters and no more than 72 UTF-8 bytes. Current password must not exceed 72 characters."}
+2026-11-25T06:13:59.341Z GET auth/me HTTP 200 {"success":true,"user":{"id":"6b067ca799b54093f6036544","name":"Test Student","email":"tc-018-209f3060@example.test","role":"student","createdAt":"2026-11-25T06:13:59.220Z","updatedAt":"2026-11-25T06:13:59.220Z"}}
+2026-11-25T06:13:59.341Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

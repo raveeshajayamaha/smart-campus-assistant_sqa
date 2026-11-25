@@ -1,0 +1,13 @@
+2026-11-25T06:14:13.157Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067cb599b54093f603657b","name":"Test Student","email":"tc-028-b9b63faf@example.test","role":"student","createdAt":"2026-11-25T06:14:13.154Z","updatedAt":"2026-11-25T06:14:13.154Z"}}
+2026-11-25T06:14:13.229Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067cb599b54093f603657b","name":"Test Student","email":"tc-028-b9b63faf@example.test","role":"admin","createdAt":"2026-11-25T06:14:13.154Z","updatedAt":"2026-11-25T06:14:13.157Z"}}
+2026-11-25T06:14:13.239Z POST locations HTTP 201 {"success":true,"location":{"name":"Main Library","building":"Central Building","description":"Study area","category":"Library","openingHours":"08:00-18:00","directions":"Ground floor","_id":"6b067cb599b54093f603657d","createdAt":"2026-11-25T06:14:13.237Z","updatedAt":"2026-11-25T06:14:13.237Z","__v":0}}
+2026-11-25T06:14:13.311Z POST auth/register HTTP 201 {"success":true,"message":"User registered successfully","user":{"id":"6b067cb599b54093f603657e","name":"Test Student","email":"tc-028-2b2fca21@example.test","role":"student","createdAt":"2026-11-25T06:14:13.307Z","updatedAt":"2026-11-25T06:14:13.307Z"}}
+2026-11-25T06:14:13.435Z POST auth/login HTTP 200 {"success":true,"message":"Login successful","token":"[redacted]","user":{"id":"6b067cb599b54093f603657e","name":"Test Student","email":"tc-028-2b2fca21@example.test","role":"student","createdAt":"2026-11-25T06:14:13.307Z","updatedAt":"2026-11-25T06:14:13.307Z"}}
+2026-11-25T06:14:21.678Z .campus-card displayed Main Library | 08:00-18:00
+2026-11-25T06:14:22.836Z tbody displayed 09:00-17:00
+2026-11-25T06:14:23.883Z Screenshot admin http://127.0.0.1:61941/admin-dashboard
+2026-11-25T06:14:24.266Z .campus-card displayed Main Library | 09:00-17:00
+2026-11-25T06:14:24.418Z Screenshot location http://127.0.0.1:61941/locations
+2026-11-25T06:14:25.500Z body displayed Main Library | 09:00-17:00
+2026-11-25T06:14:25.628Z Screenshot assistant http://127.0.0.1:61941/assistant
+2026-11-25T06:14:25.785Z Pass All scripted catalogue assertions matched. See observed values in the case evidence.

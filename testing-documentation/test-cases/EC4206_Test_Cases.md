@@ -1,6 +1,6 @@
 # EC4206 Section 3.2 — Test Case Design
 
-These cases are designed for future execution. Every actual result and status is a placeholder. The confirmed Step 2 results apply to the existing suites only.
+This catalogue defines the original case IDs and expectations. Current manual outcomes are in the [manual CSV](EC4206_Manual_Execution_Results.csv), and the new automated outcomes are in the [automated catalogue report](../reports/EC4206_Automated_Execution_Results.md). The in-case fields preserve the original design baseline.
 
 ## Execution conventions and reusable fixtures
 

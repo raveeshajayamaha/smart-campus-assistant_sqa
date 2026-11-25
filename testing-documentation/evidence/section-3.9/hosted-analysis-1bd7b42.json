@@ -1,0 +1,601 @@
+{
+    "retrievedAtUtc":  "2026-11-24T15:44:02.5185288Z",
+    "organization":  "raveeshajayamaha",
+    "project":  "raveeshajayamaha_smart-campus-assistant_sqa",
+    "branch":  "main",
+    "commit":  "1bd7b42648c07b92dbcd5a561dd2019b27a54bad",
+    "sourceUrls":  {
+                       "analyses":  "https://sonarcloud.io/api/project_analyses/search?project=raveeshajayamaha_smart-campus-assistant_sqa\u0026branch=main\u0026ps=10",
+                       "gatePassed":  "https://sonarcloud.io/api/qualitygates/project_status?analysisId=28dafdf1-7aa5-4de8-9a9e-7bd950dc77f2",
+                       "gateFailed":  "https://sonarcloud.io/api/qualitygates/project_status?analysisId=90d87935-ef0c-485c-84a3-74d06ea5bb5e",
+                       "measures":  "https://sonarcloud.io/api/measures/component?component=raveeshajayamaha_smart-campus-assistant_sqa\u0026branch=main\u0026metricKeys=coverage,line_coverage,branch_coverage,duplicated_lines_density,security_rating,reliability_rating,sqale_rating,sqale_index,bugs,vulnerabilities,code_smells,security_hotspots,new_lines,new_lines_to_cover,new_conditions_to_cover,new_coverage,new_duplicated_lines_density,new_violations,reliability_issues,security_issues,maintainability_issues",
+                       "issues":  "https://sonarcloud.io/api/issues/search?componentKeys=raveeshajayamaha_smart-campus-assistant_sqa\u0026branch=main\u0026ps=100",
+                       "backgroundTask":  "https://sonarcloud.io/api/ce/component?component=raveeshajayamaha_smart-campus-assistant_sqa\u0026branch=main",
+                       "metricDefinitions":  "https://sonarcloud.io/api/metrics/search?ps=500",
+                       "githubRun":  "https://api.github.com/repos/raveeshajayamaha/smart-campus-assistant_sqa/actions/runs/45426972596",
+                       "githubJobs":  "https://api.github.com/repos/raveeshajayamaha/smart-campus-assistant_sqa/actions/runs/45426972596/jobs",
+                       "githubArtifacts":  "https://api.github.com/repos/raveeshajayamaha/smart-campus-assistant_sqa/actions/runs/45426972596/artifacts"
+                   },
+    "notes":  "Public API responses with selected fields retained. Branch-level measures and issues were retrieved while the requested commit was the latest main analysis.",
+    "analyses":  [
+                     {
+                         "key":  "28dafdf1-7aa5-4de8-9a9e-7bd950dc77f2",
+                         "date":  "2026-11-24T15:35:29+0000",
+                         "events":  [
+                                        {
+                                            "key":  "AaIOM94_9Eza1cU0FvGl",
+                                            "category":  "VERSION",
+                                            "name":  "0.0.0"
+                                        },
+                                        {
+                                            "key":  "AaIOM9469Eza1cU0FvGk",
+                                            "category":  "QUALITY_GATE",
+                                            "name":  "Green (was Red)",
+                                            "description":  ""
+                                        }
+                                    ],
+                         "projectVersion":  "0.0.0",
+                         "manualNewCodePeriodBaseline":  false,
+                         "revision":  "1bd7b42648c07b92dbcd5a561dd2019b27a54bad"
+                     },
+                     {
+                         "key":  "90d87935-ef0c-485c-84a3-74d06ea5bb5e",
+                         "date":  "2026-11-24T15:00:03+0000",
+                         "events":  [
+                                        {
+                                            "key":  "AaIOE2qpjXc0u_Wv-e0n",
+                                            "category":  "QUALITY_GATE",
+                                            "name":  "Red",
+                                            "description":  "Security Rating on New Code \u003e 1"
+                                        }
+                                    ],
+                         "projectVersion":  "0.0.0",
+                         "manualNewCodePeriodBaseline":  false,
+                         "revision":  "f23cd83af49a3a2862acce9823f70683b0323b4d"
+                     },
+                     {
+                         "key":  "0af5730b-2c71-4b7b-80cd-2a85d256656d",
+                         "date":  "2026-11-24T11:16:42+0000",
+                         "events":  [
+                                        {
+                                            "key":  "AaINRtGzrD2vG4OpRCe-",
+                                            "category":  "VERSION",
+                                            "name":  "not provided"
+                                        }
+                                    ],
+                         "projectVersion":  "not provided",
+                         "manualNewCodePeriodBaseline":  false,
+                         "revision":  "ee7e5e28b537497a7a64d405a2717d12107d5fd5"
+                     }
+                 ],
+    "gatePassed":  {
+                       "status":  "OK",
+                       "conditions":  [
+                                          {
+                                              "status":  "OK",
+                                              "metricKey":  "new_reliability_rating",
+                                              "comparator":  "GT",
+                                              "periodIndex":  1,
+                                              "errorThreshold":  "1",
+                                              "actualValue":  "1"
+                                          },
+                                          {
+                                              "status":  "OK",
+                                              "metricKey":  "new_security_rating",
+                                              "comparator":  "GT",
+                                              "periodIndex":  1,
+                                              "errorThreshold":  "1",
+                                              "actualValue":  "1"
+                                          },
+                                          {
+                                              "status":  "OK",
+                                              "metricKey":  "new_maintainability_rating",
+                                              "comparator":  "GT",
+                                              "periodIndex":  1,
+                                              "errorThreshold":  "1",
+                                              "actualValue":  "1"
+                                          },
+                                          {
+                                              "status":  "OK",
+                                              "metricKey":  "new_duplicated_lines_density",
+                                              "comparator":  "GT",
+                                              "periodIndex":  1,
+                                              "errorThreshold":  "3",
+                                              "actualValue":  "0.0"
+                                          },
+                                          {
+                                              "status":  "OK",
+                                              "metricKey":  "new_security_hotspots_reviewed",
+                                              "comparator":  "LT",
+                                              "periodIndex":  1,
+                                              "errorThreshold":  "100",
+                                              "actualValue":  "100.0"
+                                          }
+                                      ],
+                       "periods":  [
+                                       {
+                                           "index":  1,
+                                           "mode":  "previous_version",
+                                           "date":  "2026-11-24T11:16:42+0000",
+                                           "parameter":  "not provided"
+                                       }
+                                   ],
+                       "ignoredConditions":  false
+                   },
+    "gateFailed":  {
+                       "status":  "ERROR",
+                       "conditions":  [
+                                          {
+                                              "status":  "OK",
+                                              "metricKey":  "new_reliability_rating",
+                                              "comparator":  "GT",
+                                              "periodIndex":  1,
+                                              "errorThreshold":  "1",
+                                              "actualValue":  "1"
+                                          },
+                                          {
+                                              "status":  "ERROR",
+                                              "metricKey":  "new_security_rating",
+                                              "comparator":  "GT",
+                                              "periodIndex":  1,
+                                              "errorThreshold":  "1",
+                                              "actualValue":  "3"
+                                          },
+                                          {
+                                              "status":  "OK",
+                                              "metricKey":  "new_maintainability_rating",
+                                              "comparator":  "GT",
+                                              "periodIndex":  1,
+                                              "errorThreshold":  "1",
+                                              "actualValue":  "1"
+                                          },
+                                          {
+                                              "status":  "OK",
+                                              "metricKey":  "new_duplicated_lines_density",
+                                              "comparator":  "GT",
+                                              "periodIndex":  1,
+                                              "errorThreshold":  "3",
+                                              "actualValue":  "0.0"
+                                          },
+                                          {
+                                              "status":  "OK",
+                                              "metricKey":  "new_security_hotspots_reviewed",
+                                              "comparator":  "LT",
+                                              "periodIndex":  1,
+                                              "errorThreshold":  "100",
+                                              "actualValue":  "100.0"
+                                          }
+                                      ],
+                       "periods":  [
+                                       {
+                                           "index":  1,
+                                           "mode":  "previous_version",
+                                           "date":  "2026-11-24T11:16:42+0000"
+                                       }
+                                   ],
+                       "ignoredConditions":  false
+                   },
+    "measures":  [
+                     {
+                         "metric":  "coverage",
+                         "value":  "61.5",
+                         "bestValue":  false
+                     },
+                     {
+                         "metric":  "reliability_rating",
+                         "value":  "3.0",
+                         "bestValue":  false
+                     },
+                     {
+                         "metric":  "duplicated_lines_density",
+                         "value":  "0.0",
+                         "bestValue":  true
+                     },
+                     {
+                         "metric":  "code_smells",
+                         "value":  "3",
+                         "bestValue":  false
+                     },
+                     {
+                         "metric":  "new_lines",
+                         "periods":  [
+                                         {
+                                             "index":  1,
+                                             "value":  "56"
+                                         }
+                                     ]
+                     },
+                     {
+                         "metric":  "security_issues",
+                         "value":  "{\"total\":1,\"HIGH\":0,\"MEDIUM\":0,\"LOW\":1,\"INFO\":0,\"BLOCKER\":0}"
+                     },
+                     {
+                         "metric":  "security_rating",
+                         "value":  "2.0",
+                         "bestValue":  false
+                     },
+                     {
+                         "metric":  "maintainability_issues",
+                         "value":  "{\"total\":2,\"HIGH\":0,\"MEDIUM\":1,\"LOW\":1,\"INFO\":0,\"BLOCKER\":0}"
+                     },
+                     {
+                         "metric":  "security_hotspots",
+                         "value":  "0",
+                         "bestValue":  true
+                     },
+                     {
+                         "metric":  "sqale_index",
+                         "value":  "30",
+                         "bestValue":  false
+                     },
+                     {
+                         "metric":  "sqale_rating",
+                         "value":  "1.0",
+                         "bestValue":  true
+                     },
+                     {
+                         "metric":  "bugs",
+                         "value":  "1",
+                         "bestValue":  false
+                     },
+                     {
+                         "metric":  "branch_coverage",
+                         "value":  "94.8",
+                         "bestValue":  false
+                     },
+                     {
+                         "metric":  "new_violations",
+                         "periods":  [
+                                         {
+                                             "index":  1,
+                                             "value":  "0",
+                                             "bestValue":  true
+                                         }
+                                     ]
+                     },
+                     {
+                         "metric":  "vulnerabilities",
+                         "value":  "1",
+                         "bestValue":  false
+                     },
+                     {
+                         "metric":  "new_conditions_to_cover",
+                         "periods":  [
+                                         {
+                                             "index":  1,
+                                             "value":  "0"
+                                         }
+                                     ]
+                     },
+                     {
+                         "metric":  "reliability_issues",
+                         "value":  "{\"total\":4,\"HIGH\":0,\"MEDIUM\":4,\"LOW\":0,\"INFO\":0,\"BLOCKER\":0}"
+                     },
+                     {
+                         "metric":  "line_coverage",
+                         "value":  "53.4",
+                         "bestValue":  false
+                     },
+                     {
+                         "metric":  "new_lines_to_cover",
+                         "periods":  [
+                                         {
+                                             "index":  1,
+                                             "value":  "0"
+                                         }
+                                     ]
+                     },
+                     {
+                         "metric":  "new_duplicated_lines_density",
+                         "periods":  [
+                                         {
+                                             "index":  1,
+                                             "value":  "0.0",
+                                             "bestValue":  true
+                                         }
+                                     ]
+                     }
+                 ],
+    "issues":  [
+                   {
+                       "key":  "AaIOE1WCjXc0u_Wv-e0l",
+                       "rule":  "githubactions:S7637",
+                       "line":  null,
+                       "component":  "raveeshajayamaha_smart-campus-assistant_sqa:.github/workflows/ec4206-ci.yml",
+                       "message":  "Use full commit SHA hash for this dependency.",
+                       "issueStatus":  "FIXED",
+                       "status":  "CLOSED",
+                       "type":  "VULNERABILITY",
+                       "effort":  "30min",
+                       "debt":  "30min",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "HIGH"
+                                       }
+                                   ]
+                   },
+                   {
+                       "key":  "AaIOE1WCjXc0u_Wv-e0m",
+                       "rule":  "githubactions:S7637",
+                       "line":  null,
+                       "component":  "raveeshajayamaha_smart-campus-assistant_sqa:.github/workflows/ec4206-ci.yml",
+                       "message":  "Use full commit SHA hash for this dependency.",
+                       "issueStatus":  "FIXED",
+                       "status":  "CLOSED",
+                       "type":  "VULNERABILITY",
+                       "effort":  "30min",
+                       "debt":  "30min",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "HIGH"
+                                       }
+                                   ]
+                   },
+                   {
+                       "key":  "AaINRrznrD2vG4OpRCe8",
+                       "rule":  "githubactions:S6505",
+                       "line":  null,
+                       "component":  "raveeshajayamaha_smart-campus-assistant_sqa:.github/workflows/ec4206-ci.yml",
+                       "message":  "Omitting \"--ignore-scripts\" allows lifecycle scripts to run during package installation.",
+                       "issueStatus":  "FIXED",
+                       "status":  "CLOSED",
+                       "type":  "VULNERABILITY",
+                       "effort":  "30min",
+                       "debt":  "30min",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ]
+                   },
+                   {
+                       "key":  "AaINRrznrD2vG4OpRCe9",
+                       "rule":  "githubactions:S6505",
+                       "line":  null,
+                       "component":  "raveeshajayamaha_smart-campus-assistant_sqa:.github/workflows/ec4206-ci.yml",
+                       "message":  "Omitting \"--ignore-scripts\" allows lifecycle scripts to run during package installation.",
+                       "issueStatus":  "FIXED",
+                       "status":  "CLOSED",
+                       "type":  "VULNERABILITY",
+                       "effort":  "30min",
+                       "debt":  "30min",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ]
+                   },
+                   {
+                       "key":  "AaINRrzfrD2vG4OpRCe4",
+                       "rule":  "javascript:S2068",
+                       "line":  null,
+                       "component":  "raveeshajayamaha_smart-campus-assistant_sqa:backend/features/step-definitions/campus-information.steps.js",
+                       "message":  "Review this potentially hard-coded password.",
+                       "issueStatus":  "FIXED",
+                       "status":  "CLOSED",
+                       "type":  "VULNERABILITY",
+                       "effort":  "30min",
+                       "debt":  "30min",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ]
+                   },
+                   {
+                       "key":  "AaINRrzbrD2vG4OpRCe1",
+                       "rule":  "javascript:S8786",
+                       "line":  10,
+                       "component":  "raveeshajayamaha_smart-campus-assistant_sqa:backend/routes/authRoutes.js",
+                       "message":  "Simplify this regular expression to reduce its runtime, as it has super-linear performance due to backtracking.",
+                       "issueStatus":  "OPEN",
+                       "status":  "OPEN",
+                       "type":  "CODE_SMELL",
+                       "effort":  "20min",
+                       "debt":  "20min",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ]
+                   },
+                   {
+                       "key":  "AaINRrx-rD2vG4OpRCe0",
+                       "rule":  "javascript:S7737",
+                       "line":  4,
+                       "component":  "raveeshajayamaha_smart-campus-assistant_sqa:backend/routes/resourceRoutes.js",
+                       "message":  "Do not use an object literal as default for parameter `sort`.",
+                       "issueStatus":  "OPEN",
+                       "status":  "OPEN",
+                       "type":  "CODE_SMELL",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ]
+                   },
+                   {
+                       "key":  "AaINRrzdrD2vG4OpRCe2",
+                       "rule":  "javascript:S2068",
+                       "line":  null,
+                       "component":  "raveeshajayamaha_smart-campus-assistant_sqa:backend/tests/browser-smoke.cjs",
+                       "message":  "Review this potentially hard-coded password.",
+                       "issueStatus":  "FIXED",
+                       "status":  "CLOSED",
+                       "type":  "VULNERABILITY",
+                       "effort":  "30min",
+                       "debt":  "30min",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ]
+                   },
+                   {
+                       "key":  "AaINRrzdrD2vG4OpRCe3",
+                       "rule":  "jssecurity:S8480",
+                       "line":  null,
+                       "component":  "raveeshajayamaha_smart-campus-assistant_sqa:backend/tests/browser-smoke.cjs",
+                       "message":  "Connection Hijacking via unsanitized user input",
+                       "issueStatus":  "FIXED",
+                       "status":  "CLOSED",
+                       "type":  "VULNERABILITY",
+                       "effort":  "20min",
+                       "debt":  "20min",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "HIGH"
+                                       }
+                                   ]
+                   },
+                   {
+                       "key":  "AaINRrzkrD2vG4OpRCe6",
+                       "rule":  "typescript:S9383",
+                       "line":  84,
+                       "component":  "raveeshajayamaha_smart-campus-assistant_sqa:src/pages/AdminDashboard.tsx",
+                       "message":  "Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.",
+                       "issueStatus":  "OPEN",
+                       "status":  "OPEN",
+                       "type":  "BUG",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ]
+                   },
+                   {
+                       "key":  "AaINRrzkrD2vG4OpRCe7",
+                       "rule":  "typescript:S6845",
+                       "line":  193,
+                       "component":  "raveeshajayamaha_smart-campus-assistant_sqa:src/pages/AdminDashboard.tsx",
+                       "message":  "`tabIndex` should only be declared on interactive elements.",
+                       "issueStatus":  "OPEN",
+                       "status":  "OPEN",
+                       "type":  "CODE_SMELL",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "LOW"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ]
+                   },
+                   {
+                       "key":  "AaINRrzhrD2vG4OpRCe5",
+                       "rule":  "javascript:S5689",
+                       "line":  6,
+                       "component":  "raveeshajayamaha_smart-campus-assistant_sqa:backend/server.js",
+                       "message":  "This framework implicitly discloses version information by default. Make sure it is safe here.",
+                       "issueStatus":  "OPEN",
+                       "status":  "OPEN",
+                       "type":  "VULNERABILITY",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "LOW"
+                                       }
+                                   ]
+                   }
+               ],
+    "backgroundTask":  {
+                           "id":  "AaIOM6uRaiqBtuZDd8Ty",
+                           "analysisId":  "28dafdf1-7aa5-4de8-9a9e-7bd950dc77f2",
+                           "branch":  "main",
+                           "status":  "SUCCESS",
+                           "submittedAt":  "2026-11-24T15:36:37+0000",
+                           "executedAt":  "2026-11-24T15:36:51+0000",
+                           "warningCount":  1,
+                           "warnings":  [
+
+                                        ]
+                       },
+    "metricDefinitions":  [
+                              {
+                                  "id":  "172",
+                                  "key":  "new_coverage",
+                                  "type":  "PERCENT",
+                                  "name":  "Coverage on New Code",
+                                  "description":  "Coverage of new/changed code",
+                                  "domain":  "Coverage",
+                                  "direction":  1,
+                                  "qualitative":  true,
+                                  "hidden":  false,
+                                  "decimalScale":  1
+                              },
+                              {
+                                  "id":  "162",
+                                  "key":  "sqale_index",
+                                  "type":  "WORK_DUR",
+                                  "name":  "Technical Debt",
+                                  "description":  "Total effort (in minutes) to fix all the issues on the component and therefore to comply to all the requirements.",
+                                  "domain":  "Maintainability",
+                                  "direction":  -1,
+                                  "qualitative":  true,
+                                  "hidden":  false
+                              }
+                          ],
+    "githubRun":  {
+                      "id":  45426972596,
+                      "head_sha":  "1bd7b42648c07b92dbcd5a561dd2019b27a54bad",
+                      "head_branch":  "main",
+                      "status":  "completed",
+                      "conclusion":  "success",
+                      "html_url":  "https://github.com/raveeshajayamaha/smart-campus-assistant_sqa/actions/runs/45426972596"
+                  },
+    "githubJobs":  [
+                       {
+                           "name":  "verify",
+                           "status":  "completed",
+                           "conclusion":  "success",
+                           "html_url":  "https://github.com/raveeshajayamaha/smart-campus-assistant_sqa/actions/runs/45426972596/job/138561506339"
+                       },
+                       {
+                           "name":  "sonarqube",
+                           "status":  "completed",
+                           "conclusion":  "success",
+                           "html_url":  "https://github.com/raveeshajayamaha/smart-campus-assistant_sqa/actions/runs/45426972596/job/138562349285"
+                       }
+                   ],
+    "githubArtifacts":  [
+                            {
+                                "name":  "ec4206-ci-evidence",
+                                "expired":  false,
+                                "size_in_bytes":  4298875
+                            },
+                            {
+                                "name":  "smart-campus-frontend",
+                                "expired":  false,
+                                "size_in_bytes":  10666650
+                            },
+                            {
+                                "name":  "backend-lcov",
+                                "expired":  false,
+                                "size_in_bytes":  2690
+                            }
+                        ]
+}

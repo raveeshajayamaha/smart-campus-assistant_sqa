@@ -1,0 +1,13 @@
+Disposable MongoDB is ready on 127.0.0.1:27938
+MongoDB connected successfully
+Local API: http://127.0.0.1:53298 | Synthetic events: 100
+SEC-01 PASS GET /api/locations expected 401 observed 401 | event collection unchanged: true
+SEC-02 PASS GET /api/locations expected 200 observed 200 | event collection unchanged: true
+SEC-03 PASS GET /api/locations expected 200 observed 200 | event collection unchanged: true
+SEC-04 PASS POST /api/events expected 401 observed 401 | event collection unchanged: true
+SEC-05 PASS POST /api/events expected 403 observed 403 | event collection unchanged: true
+SEC-06 PASS POST /api/events expected 201 observed 201 | event collection unchanged: false
+SEC-07 PASS POST /api/events expected 400 observed 400 | event collection unchanged: true
+SEC-08 PASS PUT /api/events/invalid-id expected 400 observed 400 | event collection unchanged: true
+Disposable MongoDB data directory removed
+Process exit code: 0
